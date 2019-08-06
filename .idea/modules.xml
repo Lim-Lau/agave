@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/agave.iml" filepath="$PROJECT_DIR$/.idea/agave.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ans/ans.iml" filepath="$PROJECT_DIR$/ans/ans.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ans-ui/ans-ui.iml" filepath="$PROJECT_DIR$/ans-ui/ans-ui.iml" />
+    </modules>
+  </component>
+</project>
