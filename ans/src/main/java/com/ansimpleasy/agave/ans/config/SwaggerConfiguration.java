@@ -6,6 +6,7 @@ import springfox.documentation.builders.ApiInfoBuilder;
 import springfox.documentation.builders.PathSelectors;
 import springfox.documentation.builders.RequestHandlerSelectors;
 import springfox.documentation.service.ApiInfo;
+import springfox.documentation.service.Contact;
 import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
@@ -30,8 +31,8 @@ public class SwaggerConfiguration {
         return new ApiInfoBuilder()
                 .title("Ansimpleasy")
                 .description("Ansimpleasy Agave Ans")
-                .termsOfServiceUrl("https://github.com/ansimpleasy/simpleasy.github.io")
-                //.contact(new Contact("海水不甜","http://www.seawaterbt.com","809318068@qq.com"))
+                .termsOfServiceUrl("https://github.com/ansimpleasy/agave")
+                .contact(new Contact("Agave","https://github.com/ansimpleasy/agave","964054936@qq.com"))
                 .version("1.0")
                 .build();
     }
