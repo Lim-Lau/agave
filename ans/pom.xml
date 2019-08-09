@@ -120,6 +120,12 @@
             <artifactId>lombok</artifactId>
             <optional>true</optional>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.nutz/nutz -->
+        <dependency>
+            <groupId>org.nutz</groupId>
+            <artifactId>nutz</artifactId>
+            <version>1.r.68.v20190731</version>
+        </dependency>
     </dependencies>
     <!--Maven多环境配置-->
     <profiles>
@@ -145,14 +151,26 @@
             </properties>
         </profile>
     </profiles>
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
+        <build>
+            <finalName>config</finalName>
+            <resources>
+                <resource>
+                    <directory>src/main/resources</directory>
+                    <excludes>
+                        <exclude>config/</exclude>
+                    </excludes>
+                </resource>
+                <resource>
+                    <directory>src/main/resources/config/${config.dir}</directory>
+                    <targetPath>.</targetPath>
+                </resource>
+            </resources>
+            <plugins>
+                <plugin>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-maven-plugin</artifactId>
+                </plugin>
 
-        </plugins>
-    </build>
-
+            </plugins>
+        </build>
 </project>
