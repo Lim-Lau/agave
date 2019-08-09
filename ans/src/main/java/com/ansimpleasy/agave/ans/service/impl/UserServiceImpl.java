@@ -23,6 +23,6 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements IU
     @Override
     public User getByName(String name) {
 
-        return userMapper.getByName(name);
+        return userMapper.fetchUserByName(name);
     }
 }

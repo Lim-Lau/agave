@@ -1,32 +1,34 @@
 package com.ansimpleasy.agave.ans.entity;
 
-import com.ansimpleasy.agave.ans.entity.base.StatefulBaseEntity;
+import com.ansimpleasy.agave.ans.enums.Status;
+import com.baomidou.mybatisplus.annotation.IdType;
+import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
+import lombok.Data;
+
+import java.util.Date;
 
 /**
  * @author LiuCan
  * @date 2019/8/7 8:43
  */
 @TableName("t_user")
-public class User extends StatefulBaseEntity {
+@Data
+public class User {
+    /**
+     * 主键
+     */
+    @TableId(value = "id", type = IdType.AUTO)
+    private long id;
 
     private String name;
 
     private String password;
 
-    public String getName() {
-        return name;
-    }
+    private String status = Status.VALID.getCode();
 
-    public void setName(String name) {
-        this.name = name;
-    }
+    private Date createTime ;
 
-    public String getPassword() {
-        return password;
-    }
+    private Date updateTime;
 
-    public void setPassword(String password) {
-        this.password = password;
-    }
 }

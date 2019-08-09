@@ -9,12 +9,12 @@ import org.apache.ibatis.annotations.Param;
  *  Mapper 接口
  * </p>
  *
- * @author liucan@
+ * @author liucan
  * @since 2019-08-07
  */
 public interface UserMapper extends BaseMapper<User> {
 
-    User getByName(@Param("name") String name);
+    User fetchUserByName(@Param("name") String name);
 
 }
 

@@ -23,7 +23,7 @@ mybatis-plus:
   # \u5982\u679C\u662F\u653E\u5728src/main/java\u76EE\u5F55\u4E0B
   # classpath:/com/ansimpleasy/agave/ans/mapper/xml/*Mapper.xml
   # \u5982\u679C\u662F\u653E\u5728resource\u76EE\u5F55 classpath:/mapper/*Mapper.xml
-  mapper-locations: classpath:/mapper/*Mapper.xml
+  mapper-locations: classpath*:/mapper/*Mapper.xml
   #\u5B9E\u4F53\u626B\u63CF\uFF0C\u591A\u4E2Apackage\u7528\u9017\u53F7\u6216\u8005\u5206\u53F7\u5206\u9694
   typeAliasesPackage: com.ansimpleasy.agave.ans.entity
   global-config:
