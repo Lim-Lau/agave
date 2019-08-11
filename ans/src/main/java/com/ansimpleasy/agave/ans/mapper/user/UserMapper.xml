@@ -5,7 +5,7 @@
 <mapper namespace="com.ansimpleasy.agave.ans.mapper.user.UserMapper">
 
     <select id="fetchUserByName" parameterType="java.lang.String" resultType="com.ansimpleasy.agave.ans.entity.User">
-        SELECT  *  FROM  t_user WHERE  u_name  = #{name};
+        SELECT  *  FROM  user WHERE  name  = #{name};
     </select>
 
 </mapper>

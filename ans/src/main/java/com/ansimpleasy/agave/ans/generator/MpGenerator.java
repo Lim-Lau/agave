@@ -45,7 +45,7 @@ public class MpGenerator {
         dataSourceConfig.setDbType(DbType.MYSQL)
                 .setUrl(dbUrl)
                 .setUsername("root")
-                .setPassword("G00dl^ck")
+                .setPassword("Pwd123")
                 .setDriverName("com.mysql.cj.jdbc.Driver");
         StrategyConfig strategyConfig = new StrategyConfig();
         strategyConfig
@@ -55,7 +55,7 @@ public class MpGenerator {
                 .setNaming(NamingStrategy.underline_to_camel)
                 .setInclude(tableNames);//修改替换成你需要的表名，多个表名传数组
         globalConfig.setActiveRecord(false)
-                .setAuthor("liucan@")
+                .setAuthor("liucan")
                 .setOutputDir("d:\\TestCodeGen")
                 .setFileOverride(true);
         if (!serviceNameStartWithImpl) {
@@ -87,6 +87,6 @@ public class MpGenerator {
     public static void main(String[] args) {
         MpGenerator mpGenerator = new MpGenerator();
         String packageName = "com.ansimpleasy.agave.ans";
-        mpGenerator.generateByTables(packageName,"t_user");
+        mpGenerator.generateByTables(packageName,"user","user_role","role","role_permission","user_permission","permission");
     }
 }
