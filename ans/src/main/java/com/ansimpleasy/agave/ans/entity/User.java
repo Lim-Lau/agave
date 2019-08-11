@@ -2,6 +2,7 @@ package com.ansimpleasy.agave.ans.entity;
 
 import com.ansimpleasy.agave.ans.enums.Status;
 import com.baomidou.mybatisplus.annotation.IdType;
+import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.Data;
@@ -20,15 +21,19 @@ public class User {
      */
     @TableId(value = "id", type = IdType.AUTO)
     private long id;
-
+    @TableField("u_name")
     private String name;
 
+    @TableField("u_password")
     private String password;
 
+    @TableField("u_status")
     private String status = Status.VALID.getCode();
 
+    @TableField("u_create_time")
     private Date createTime ;
 
+    @TableField("u_update_time")
     private Date updateTime;
 
 }

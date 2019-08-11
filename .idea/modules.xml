@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/agave.iml" filepath="$PROJECT_DIR$/.idea/agave.iml" />
       <module fileurl="file://$PROJECT_DIR$/ans/ans.iml" filepath="$PROJECT_DIR$/ans/ans.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ans/ans.iml" filepath="$PROJECT_DIR$/ans/ans.iml" />
       <module fileurl="file://$PROJECT_DIR$/ans-ui/ans-ui.iml" filepath="$PROJECT_DIR$/ans-ui/ans-ui.iml" />
     </modules>
   </component>
