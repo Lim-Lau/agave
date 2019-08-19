@@ -1,5 +1,7 @@
 package com.ansimpleasy.agave.ans.service;
 
+import com.ansimpleasy.agave.ans.auth.AuthServiceImpl;
+import com.ansimpleasy.agave.ans.auth.AuthUser;
 import com.ansimpleasy.agave.ans.entity.User;
 import com.baomidou.mybatisplus.extension.service.IService;
 
@@ -13,5 +15,9 @@ import com.baomidou.mybatisplus.extension.service.IService;
  */
 public interface IUserService extends IService<User> {
     User getByName(String name);
+
+    User saveUser(User user);
+
+    AuthUser login(AuthServiceImpl.LoginDto user);
 
 }

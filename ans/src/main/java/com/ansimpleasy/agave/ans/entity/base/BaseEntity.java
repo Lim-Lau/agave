@@ -4,6 +4,7 @@ import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
 import lombok.Data;
+import org.nutz.lang.Times;
 
 import java.io.Serializable;
 import java.util.Date;
@@ -21,8 +22,8 @@ public class BaseEntity implements Serializable {
     @TableId(value = "id", type = IdType.AUTO)
     private long id;
     @TableField("create_time")
-    private Date createTime;
+    private Date createTime = Times.now();
     @TableField("update_time")
-    private Date updateTime;
+    private Date updateTime = Times.now();
 
 }

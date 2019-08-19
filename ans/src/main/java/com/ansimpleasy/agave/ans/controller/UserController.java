@@ -1,6 +1,7 @@
 package com.ansimpleasy.agave.ans.controller;
 
 
+import com.ansimpleasy.agave.ans.auth.AuthServiceImpl;
 import com.ansimpleasy.agave.ans.entity.User;
 import com.ansimpleasy.agave.ans.result.Result;
 import com.ansimpleasy.agave.ans.service.impl.UserServiceImpl;
@@ -24,22 +25,22 @@ public class UserController {
 
     @PostMapping("/login")
     @ApiOperation("用户登录")
-    public Result login(@RequestBody User user) {
-        //登录逻辑
-        User perUser = userService.getByName(user.getName());
+    public Result login(@RequestBody AuthServiceImpl.LoginDto user) {
 
-        if (perUser == null) {
-            return Result.fail("该用户不存在!");
-        }
-        return Result.success();
+        return Result.success().addData("user" , userService.login(user));
     }
 
 
     @PostMapping("/register")
     @ApiOperation("用户注册")
     public Result register(@RequestBody User user) {
+        //登录逻辑
+        User perUser = userService.getByName(user.getName());
+        if (perUser != null) {
+            return Result.fail("已存在的用户");
+        }
 
-        return Result.success();
+        return Result.success().addData("user" , userService.saveUser(user));
     }
 
 
