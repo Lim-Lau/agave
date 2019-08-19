@@ -126,6 +126,11 @@
             <artifactId>nutz</artifactId>
             <version>1.r.68.v20190731</version>
         </dependency>
+        <dependency>
+            <groupId>com.auth0</groupId>
+            <artifactId>java-jwt</artifactId>
+            <version>[3.7.0,)</version>
+        </dependency>
     </dependencies>
     <!--Maven多环境配置-->
     <profiles>
