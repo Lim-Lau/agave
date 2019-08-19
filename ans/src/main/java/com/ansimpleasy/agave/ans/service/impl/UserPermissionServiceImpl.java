@@ -1,7 +1,7 @@
 package com.ansimpleasy.agave.ans.service.impl;
 
 import com.ansimpleasy.agave.ans.entity.UserPermission;
-import com.ansimpleasy.agave.ans.mapper.UserPermissionMapper;
+import com.ansimpleasy.agave.ans.mapper.temp.UserPermissionMapper;
 import com.ansimpleasy.agave.ans.service.IUserPermissionService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

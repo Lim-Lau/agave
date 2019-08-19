@@ -1,7 +1,7 @@
 package com.ansimpleasy.agave.ans.service.impl;
 
 import com.ansimpleasy.agave.ans.entity.UserRole;
-import com.ansimpleasy.agave.ans.mapper.UserRoleMapper;
+import com.ansimpleasy.agave.ans.mapper.temp.UserRoleMapper;
 import com.ansimpleasy.agave.ans.service.IUserRoleService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

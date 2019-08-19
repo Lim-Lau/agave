@@ -1,7 +1,7 @@
 package com.ansimpleasy.agave.ans.service.impl;
 
 import com.ansimpleasy.agave.ans.entity.RolePermission;
-import com.ansimpleasy.agave.ans.mapper.RolePermissionMapper;
+import com.ansimpleasy.agave.ans.mapper.temp.RolePermissionMapper;
 import com.ansimpleasy.agave.ans.service.IRolePermissionService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
