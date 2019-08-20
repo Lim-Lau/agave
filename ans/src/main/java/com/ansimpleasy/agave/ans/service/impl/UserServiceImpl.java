@@ -7,6 +7,7 @@ import com.ansimpleasy.agave.ans.auth.JwtUtil;
 import com.ansimpleasy.agave.ans.common.CredentialsMatcher;
 import com.ansimpleasy.agave.ans.entity.User;
 import com.ansimpleasy.agave.ans.enums.DataSourceEnum;
+import com.ansimpleasy.agave.ans.exception.AnsException;
 import com.ansimpleasy.agave.ans.mapper.user.UserMapper;
 import com.ansimpleasy.agave.ans.service.IUserService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
@@ -43,11 +44,11 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements IU
         User perUser = getByName(user.getName());
 
         if (perUser == null) {
-            throw Lang.makeThrow("用户不存在!");
+            throw Lang.makeThrow(AnsException.class,"用户不存在!");
         }
 
         if (!Strings.equals(CredentialsMatcher.password(user.getName(),user.getPassword()), perUser.getPassword())) {
-            throw Lang.makeThrow("用户名或密码不正确!");
+            throw Lang.makeThrow(AnsException.class,"用户名或密码不正确!");
         }
 
 
