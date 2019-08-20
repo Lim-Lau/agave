@@ -30,7 +30,7 @@ public class AnsApplication {
                 if (Lang.isEmpty(account)) {
                     account = new User();
                     account.setName("admin");
-                    account.setStatus(Status.VALID.getCode());
+                    account.setStatus(Status.VALID.name());
                     account.setPassword(CredentialsMatcher.password(String.valueOf(account.getName()), "G00dl^ck"));
                     userService.save(account);
                 }

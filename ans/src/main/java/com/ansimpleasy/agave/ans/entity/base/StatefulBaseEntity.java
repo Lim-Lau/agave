@@ -12,6 +12,6 @@ import lombok.Data;
 public class StatefulBaseEntity extends BaseEntity {
 
     @TableField("status")
-    private String status = Status.VALID.getCode();
+    private String status = Status.VALID.name();
 
 }
