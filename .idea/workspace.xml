@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3880e195-15c3-424b-9151-7e8a8df08da2" name="Default Changelist" comment="#Add:Vue相关依赖及文件">
-      <change afterPath="$PROJECT_DIR$/ans-ui/src/assets/login-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ans-ui/src/assets/login.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ans-ui/src/assets/timg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ans-ui/src/views/Register.vue" afterDir="false" />
+    <list default="true" id="3880e195-15c3-424b-9151-7e8a8df08da2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ans-ui/src/assets/login-logo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ans-ui/src/components/layout/Layout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ans-ui/src/components/layout/Layout.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ans-ui/src/views/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ans-ui/src/views/Login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ans-ui/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/ans-ui/vue.config.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/ans/target/" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -33,8 +28,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ans-ui/src/views/Login.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            <state relative-caret-position="154">
+              <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ans-ui/vue.config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -42,8 +46,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ans-ui/src/views/Register.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5">
-              <caret line="4" column="40" lean-forward="true" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+            <state relative-caret-position="88">
+              <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -52,7 +56,7 @@
         <entry file="file://$PROJECT_DIR$/ans-ui/src/App.vue">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="176">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -122,7 +126,6 @@
         <option value="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/exception/AnsExceptionHandler.java" />
         <option value="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/exception/AnsException.java" />
         <option value="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/ans-ui/vue.config.js" />
         <option value="$PROJECT_DIR$/ans-ui/src/main.js" />
         <option value="$PROJECT_DIR$/ans-ui/src/config/defaultSettings.js" />
         <option value="$PROJECT_DIR$/ans-ui/src/router.js" />
@@ -133,6 +136,7 @@
         <option value="$PROJECT_DIR$/ans-ui/src/App.vue" />
         <option value="$PROJECT_DIR$/ans-ui/src/views/Register.vue" />
         <option value="$PROJECT_DIR$/ans-ui/src/components/layout/Layout.vue" />
+        <option value="$PROJECT_DIR$/ans-ui/vue.config.js" />
         <option value="$PROJECT_DIR$/ans-ui/src/views/Login.vue" />
       </list>
     </option>
@@ -195,8 +199,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -248,6 +250,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -258,10 +262,10 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566292584450" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566292783601" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="js-jscs-nodeInterpreter" value="E:\ansimpleasy\nodejs\node.exe" />
-    <property name="last_opened_file_path" value="F:/IdeaProjects/ZZJZ/eMAS/emas-documents" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -491,7 +495,8 @@
       <workItem from="1565596492999" duration="729000" />
       <workItem from="1565686097741" duration="1968000" />
       <workItem from="1566180601297" duration="10321000" />
-      <workItem from="1566262557117" duration="7814000" />
+      <workItem from="1566262557117" duration="8015000" />
+      <workItem from="1566348343108" duration="770000" />
     </task>
     <task id="LOCAL-00001" summary="#Add:jwt依赖">
       <created>1566184582395</created>
@@ -542,17 +547,24 @@
       <option name="project" value="LOCAL" />
       <updated>1566285057852</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="#Add:一些文件">
+      <created>1566292601601</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1566292601601</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24271000" />
+    <option name="totallyTimeSpent" value="25242000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="0" width="1938" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31925133" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31925133" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="UI Designer" order="3" />
@@ -569,7 +581,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.43673012" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.17469205" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32949308" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32922733" />
       <window_info anchor="bottom" id="Spring" order="11" />
@@ -578,7 +590,6 @@
       <window_info anchor="bottom" id="SonarLint" order="14" />
       <window_info anchor="bottom" id="Java Enterprise" order="15" />
       <window_info anchor="bottom" id="Database Changes" order="16" />
-      <window_info anchor="right" id="Preview" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -590,6 +601,7 @@
       <window_info anchor="right" id="Maven" order="8" />
       <window_info anchor="right" id="Capture Analysis" order="9" />
       <window_info anchor="right" id="Theme Preview" order="10" />
+      <window_info anchor="right" id="Preview" order="11" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31925133" />
@@ -641,7 +653,8 @@
     <MESSAGE value="#Modify:状态入库时的值" />
     <MESSAGE value="#Add:全局异常" />
     <MESSAGE value="#Add:Vue相关依赖及文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="#Add:Vue相关依赖及文件" />
+    <MESSAGE value="#Add:一些文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="#Add:一些文件" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -721,13 +734,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/excepation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/excepation.java" />
     <entry file="jar://D:/Program Files/Java/jdk1.8.0_202/src.zip!/java/lang/RuntimeException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -852,13 +859,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ans-ui/vue.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ans-ui/postcss.config.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -974,25 +974,21 @@
     <entry file="file://$PROJECT_DIR$/ans-ui/src/assets/login.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ans-ui/src/assets/login-logo.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ans-ui/src/assets/login-logo.jpg" />
+    <entry file="file://$PROJECT_DIR$/ans-ui/src/assets/aaa.jpg" />
     <entry file="file://$PROJECT_DIR$/ans-ui/src/views/Register.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5">
-          <caret line="4" column="40" lean-forward="true" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+        <state relative-caret-position="88">
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ans-ui/src/App.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ans-ui/src/assets/aaa.jpg">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/ans-ui/src/components/layout/Layout.vue">
       <provider selected="true" editor-type-id="text-editor">
@@ -1001,10 +997,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ans-ui/vue.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ans-ui/src/views/Login.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        <state relative-caret-position="154">
+          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
         </state>
       </provider>
     </entry>

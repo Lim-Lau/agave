@@ -2,7 +2,7 @@
     <div class="login-wrap">
         <div class="ms-login">
             <div class="ms-title">
-                <img src="@/assets/timg.jpg">
+                <img class="login-img" src="@/assets/timg.jpg">
             </div>
         </div>
     </div>
@@ -20,6 +20,10 @@
 </script>
 
 <style scoped>
+    .login-img {
+        width: 29%;
+    }
+
     .login-wrap {
         position: relative;
         width: 100%;

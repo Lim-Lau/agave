@@ -3,7 +3,7 @@ module.exports = {
   lintOnSave: false,
   devServer: {
     disableHostCheck: true,
-    port: process.env.PORT || 8081,
+    port: process.env.PORT || 8080,
     https: false,
     hotOnly: false,
     proxy: {
