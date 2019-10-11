@@ -16,24 +16,34 @@ export default new Router({
                 title: '登录'
             }
         },
-        /*{
+        {
             path: "/",
-            name: "members",
+            name: "Register",
+            component: () => import("./views/Register.vue"),
+            hidden: true,
+            meta: {
+                name: "注册",
+                title: '注册'
+            }
+        },
+        {
+            path: "/",
+            name: "img",
             hidden: true,
             meta: {
                 icon: "fa fa-user-secret"
             },
             component: Layout,
             children: [{
-                path: "/member",
-                name: "member",
+                path: "/img",
+                name: "img",
                 meta: {
-                    name: "成员管理",
-                    icon: "fa fa-user-secret",
-                    pn: installPermissions.permissions.member.management
+                    name: "图片",
+                    icon: "fa fa-user-secret"
+                    // pn: installPermissions.permissions.member.management
                 },
-                component: () => import("./views/platform/user/member")
+                component: () => import("./views/platform/doc/img")
             }]
-        }*/
+        }
     ]
 })

@@ -24,7 +24,6 @@
         <mysql-connector-java.version>8.0.15</mysql-connector-java.version>
     </properties>
     <!--版本配置参数End-->
-
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>

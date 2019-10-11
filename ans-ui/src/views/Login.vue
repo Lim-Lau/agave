@@ -4,17 +4,86 @@
             <div class="ms-title">
                 <img class="login-img" src="@/assets/timg.jpg">
             </div>
+            <el-form
+                    ref="loginForm"
+            :model="user"
+            :rules="rules"
+            >
+                <el-form-item prop="name" label="用户名" label-width="80px" :label-position="labelPosition">
+                    <el-input v-model="user.name"
+                              placeholder="请输入用户名"
+                              suffix-icon="fa fa-mobile">
+                    </el-input>
+                </el-form-item>
+                <el-form-item prop="password" label="密码" label-width="80px" :label-position="labelPosition">
+                    <el-input v-model="user.password"
+                              placeholder="请输入密码"
+                              suffix-icon="fa fa-lock">
+                    </el-input>
+                </el-form-item>
+                <el-form-item prop="rememberMe">
+                    <el-checkbox v-model="user.rememberMe">
+                        记住我
+                    </el-checkbox>
+                </el-form-item>
+                <div class="login-btn">
+                    <el-button
+                            type="primary"
+                            @click="submitForm('loginForm')"
+                    >
+                        登录
+                    </el-button>
+                </div>
+            </el-form>
         </div>
     </div>
 </template>
 
 <script>
+    import {mapMutations, mapState} from "vuex";
     export default {
         name: "Login",
         data:function () {
             return{
-                message: "我是登录页面!"
+                labelPosition: "left",
+                user:{
+                    name: '',
+                    password: '',
+                    rememberMe: true
+                },
+                rules: {
+                    name: [{required: true, message: "请输入手机号码", trigger: "blur"}],
+                    password: [{required: true, message: "请输入密码", trigger: "blur"}]
+                }
             }
+        },
+        methods: {
+            ...mapMutations([
+                "login",
+                "logout",
+                "save",
+                "remove",
+                "updateAvatar",
+                "cacheCodebooks",
+                "captchaCutDown"
+            ]),
+            submitForm(formName) {
+                this.$refs[formName].validate(valid => {
+                    if (valid) {
+                        if (this.user.rememberMe) {
+                            this.$cookie.set("userName", this.user.name);
+                        } else {
+                            this.$cookie.remove("userName");
+                        }
+                        this.$api.user.login(this.user, () => {
+                            this.$router.push({path: "/img"});
+                        });
+                    } else {
+                        return false;
+                    }
+                });
+            }
+
         }
     }
 </script>
