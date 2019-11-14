@@ -5,6 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/agave.iml" filepath="$PROJECT_DIR$/.idea/agave.iml" />
       <module fileurl="file://$PROJECT_DIR$/ans/ans.iml" filepath="$PROJECT_DIR$/ans/ans.iml" />
       <module fileurl="file://$PROJECT_DIR$/ans-ui/ans-ui.iml" filepath="$PROJECT_DIR$/ans-ui/ans-ui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.ansimpleasy.spring-five.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.ansimpleasy.spring-five.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.ansimpleasy.spring-five.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.ansimpleasy.spring-five.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web-past-life/web-past-life.iml" filepath="$PROJECT_DIR$/web-past-life/web-past-life.iml" />
     </modules>
   </component>
 </project>

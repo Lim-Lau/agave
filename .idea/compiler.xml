@@ -11,6 +11,11 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="ans" target="1.8" />
+      <module name="chapter01" target="1.5" />
+      <module name="com.ansimpleasy.spring-five.main" target="1.8" />
+      <module name="com.ansimpleasy.spring-five.test" target="1.8" />
+      <module name="servlet" target="1.5" />
+      <module name="servlets" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
