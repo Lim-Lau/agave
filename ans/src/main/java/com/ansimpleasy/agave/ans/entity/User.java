@@ -3,14 +3,13 @@ package com.ansimpleasy.agave.ans.entity;
 import com.ansimpleasy.agave.ans.entity.base.StatefulBaseEntity;
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableName;
-import lombok.Data;
 
 /**
  * @author LiuCan
  * @date 2019/8/7 8:43
  */
 @TableName("user")
-@Data
+
 public class User extends StatefulBaseEntity{
 
     @TableField("name")
@@ -19,5 +18,19 @@ public class User extends StatefulBaseEntity{
     @TableField("password")
     private String password;
 
+    public String getName() {
+        return name;
+    }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
 }
