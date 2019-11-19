@@ -2,30 +2,19 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="servlet:war exploded" />
+      <artifact name="web-past-life:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3880e195-15c3-424b-9151-7e8a8df08da2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/servlet_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/servlet_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/web_past_life_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/com.ansimpleasy.spring-five.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/com.ansimpleasy.spring-five.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/com.ansimpleasy.spring-five.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-past-life/src/com/ans/servlet/MyServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-past-life/web-past-life.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-past-life/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_auth0_java_jwt_3_8_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_auth0_java_jwt_3_8_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/readConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/spr/MyProtocolResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ans/src/main/resources/config/dev/readConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ans/src/test/java/com/ansimpleasy/agave/ans/MyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ans/src/test/java/com/ansimpleasy/agave/ans/readConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/com.ansimpleasy.spring-five.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/com.ansimpleasy.spring-five.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/com.ansimpleasy.spring-five.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/com.ansimpleasy.spring-five.test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ans-ui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ans-ui/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/ans/target/" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -63,33 +52,343 @@
     <favorites_list name="agave" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web-past-life/web/WEB-INF/web.xml">
+        <entry file="file://$PROJECT_DIR$/ans/src/test/java/com/ansimpleasy/agave/ans/MyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-past-life/src/com/ans/servlet/MyServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="32" column="35" lean-forward="true" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+            <state relative-caret-position="408">
+              <caret line="51" column="1" lean-forward="true" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1461#1462#0" expanded="true" />
-                <element signature="e#1500#1501#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-past-life/web/index.jsp">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/spr/MyProtocolResolver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="31" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.8.RELEASE/spring-core-5.1.8.RELEASE-sources.jar!/org/springframework/core/io/DefaultResourceLoader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="166" column="48" selection-start-line="166" selection-start-column="40" selection-end-line="166" selection-end-column="48" />
+              <folding>
+                <element signature="docComment;class#DefaultResourceLoader#0" />
+                <element signature="docComment;method#DefaultResourceLoader#0;class#DefaultResourceLoader#0" />
+                <element signature="docComment;method#DefaultResourceLoader#1;class#DefaultResourceLoader#0" />
+                <element signature="docComment;method#setClassLoader#0;class#DefaultResourceLoader#0" />
+                <element signature="docComment;method#getClassLoader#0;class#DefaultResourceLoader#0" />
+                <element signature="e#3268#3277#0" />
+                <element signature="docComment;method#addProtocolResolver#0;class#DefaultResourceLoader#0" />
+                <element signature="method#addProtocolResolver#0;class#DefaultResourceLoader#0" />
+                <element signature="docComment;method#getProtocolResolvers#0;class#DefaultResourceLoader#0" />
+                <element signature="docComment;method#getResourceCache#0;class#DefaultResourceLoader#0" />
+                <element signature="method#getResourceCache#0;class#DefaultResourceLoader#0" />
+                <element signature="docComment;method#clearResourceCaches#0;class#DefaultResourceLoader#0" />
+                <element signature="docComment;method#getResourceByPath#0;class#DefaultResourceLoader#0" />
+                <element signature="e#6317#6318#0" expanded="true" />
+                <element signature="e#6383#6384#0" expanded="true" />
+                <element signature="docComment;class#ClassPathContextResource#0;class#DefaultResourceLoader#0" />
+                <element signature="class#ClassPathContextResource#0;class#DefaultResourceLoader#0" />
+                <element signature="method#createRelative#0;class#ClassPathContextResource#0;class#DefaultResourceLoader#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Program Files/Java/jdk1.8.0_202/src.zip!/java/net/URL.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="437" column="11" selection-start-line="437" selection-start-column="11" selection-end-line="437" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.8.RELEASE/spring-core-5.1.8.RELEASE-sources.jar!/org/springframework/core/io/ResourceLoader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="44" column="58" selection-start-line="44" selection-start-column="58" selection-end-line="44" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.8.RELEASE/spring-core-5.1.8.RELEASE-sources.jar!/org/springframework/util/ResourceUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="50" column="31" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.8.RELEASE/spring-core-5.1.8.RELEASE-sources.jar!/org/springframework/util/ClassUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-90">
+              <caret line="178" column="30" selection-start-line="178" selection-start-column="30" selection-end-line="178" selection-end-column="30" />
+              <folding>
+                <element signature="docComment;class#ClassUtils#0" />
+                <element signature="e#1650#1700#0" />
+                <element signature="e#1752#1810#0" />
+                <element signature="e#1871#1944#0" />
+                <element signature="e#2011#2063#0" />
+                <element signature="e#2118#2167#0" />
+                <element signature="e#2219#2275#0" />
+                <element signature="e#2334#2381#0" />
+                <element signature="e#2442#2474#0" />
+                <element signature="e#2536#2675#0" />
+                <element signature="e#2776#2905#0" />
+                <element signature="e#3008#3138#0" />
+                <element signature="e#3227#3388#0" />
+                <element signature="e#3473#3606#0" />
+                <element signature="initializer##0;class#ClassUtils#0" />
+                <element signature="e#4305#4420#1" />
+                <element signature="e#4775#4849#1" />
+                <element signature="e#5791#5864#0" />
+                <element signature="e#5791#6033#0" />
+                <element signature="e#5976#6030#1" />
+                <element signature="e#6036#6737#0" />
+                <element signature="e#7433#7805#0" />
+                <element signature="e#7433#8265#0" />
+                <element signature="e#8134#8233#1" />
+                <element signature="e#8241#8262#1" />
+                <element signature="e#8268#8970#0" />
+                <element signature="e#8268#10849#0" />
+                <element signature="e#9224#9268#1" />
+                <element signature="e#9290#9312#1" />
+                <element signature="e#9388#9604#1" />
+                <element signature="e#9719#9939#1" />
+                <element signature="e#10037#10233#1" />
+                <element signature="e#10295#10338#1" />
+                <element signature="e#10345#10397#0" />
+                <element signature="e#10434#10846#0" />
+                <element signature="e#10522#10829#1" />
+                <element signature="e#10658#10724#0" />
+                <element signature="e#10852#11900#0" />
+                <element signature="e#10852#12543#0" />
+                <element signature="e#12039#12087#0" />
+                <element signature="e#12121#12271#0" />
+                <element signature="e#12299#12411#0" />
+                <element signature="e#12448#12540#0" />
+                <element signature="e#12546#13360#0" />
+                <element signature="e#12546#13811#0" />
+                <element signature="e#13455#13512#0" />
+                <element signature="e#13546#13696#0" />
+                <element signature="e#13720#13808#0" />
+                <element signature="e#13814#14094#0" />
+                <element signature="e#13814#14500#0" />
+                <element signature="e#14208#14229#1" />
+                <element signature="e#14236#14311#0" />
+                <element signature="e#14284#14307#1" />
+                <element signature="e#14503#14831#0" />
+                <element signature="e#14503#15828#0" />
+                <element signature="e#14977#15551#0" />
+                <element signature="e#15094#15117#1" />
+                <element signature="e#15146#15170#1" />
+                <element signature="e#15283#15377#1" />
+                <element signature="e#15347#15372#1" />
+                <element signature="e#15450#15547#1" />
+                <element signature="e#15516#15542#1" />
+                <element signature="e#15635#15698#0" />
+                <element signature="e#15831#16045#0" />
+                <element signature="e#15831#16349#0" />
+                <element signature="e#16130#16245#0" />
+                <element signature="e#16282#16346#0" />
+                <element signature="e#16352#16894#0" />
+                <element signature="e#16352#17282#0" />
+                <element signature="e#17009#17070#0" />
+                <element signature="e#17176#17262#1" />
+                <element signature="e#17285#17530#0" />
+                <element signature="e#17285#17697#0" />
+                <element signature="e#17700#18041#0" />
+                <element signature="e#17700#18218#0" />
+                <element signature="e#18221#18458#0" />
+                <element signature="e#18221#18640#0" />
+                <element signature="e#18643#18905#0" />
+                <element signature="e#18643#19100#0" />
+                <element signature="e#19103#19354#0" />
+                <element signature="e#19103#19580#0" />
+                <element signature="e#19583#20010#0" />
+                <element signature="e#19583#20651#0" />
+                <element signature="e#20261#20282#1" />
+                <element signature="e#20312#20448#1" />
+                <element signature="e#20421#20444#1" />
+                <element signature="e#20456#20632#1" />
+                <element signature="e#20605#20628#1" />
+                <element signature="e#20654#21006#0" />
+                <element signature="e#20654#21227#0" />
+                <element signature="e#21230#21438#0" />
+                <element signature="e#21230#21649#0" />
+                <element signature="e#21652#21860#0" />
+                <element signature="e#21652#22059#0" />
+                <element signature="e#22062#22953#0" />
+                <element signature="e#22062#23280#0" />
+                <element signature="e#23147#23218#1" />
+                <element signature="e#23283#24030#0" />
+                <element signature="e#23283#24433#0" />
+                <element signature="e#24129#24148#1" />
+                <element signature="e#24282#24301#1" />
+                <element signature="e#24436#24829#0" />
+                <element signature="e#24952#25376#0" />
+                <element signature="e#24952#25795#0" />
+                <element signature="e#25500#25521#1" />
+                <element signature="e#25634#25750#1" />
+                <element signature="e#25719#25746#1" />
+                <element signature="e#25798#26083#0" />
+                <element signature="e#26209#26472#0" />
+                <element signature="e#26209#26650#0" />
+                <element signature="e#26653#26985#0" />
+                <element signature="e#27108#27586#0" />
+                <element signature="e#27108#27767#0" />
+                <element signature="e#27770#28027#0" />
+                <element signature="e#27770#28218#0" />
+                <element signature="e#28221#28547#0" />
+                <element signature="e#28221#28680#0" />
+                <element signature="e#28683#29155#0" />
+                <element signature="e#28683#29751#0" />
+                <element signature="e#29379#29424#1" />
+                <element signature="e#29531#29727#1" />
+                <element signature="e#29608#29685#1" />
+                <element signature="e#29647#29680#1" />
+                <element signature="e#29754#30315#0" />
+                <element signature="e#29754#30597#0" />
+                <element signature="e#30600#30990#0" />
+                <element signature="e#30600#31549#0" />
+                <element signature="e#31128#31151#1" />
+                <element signature="e#31174#31197#1" />
+                <element signature="e#31237#31260#1" />
+                <element signature="e#31300#31323#1" />
+                <element signature="e#31359#31481#1" />
+                <element signature="e#31454#31477#1" />
+                <element signature="e#31552#32015#0" />
+                <element signature="e#32131#32368#0" />
+                <element signature="e#32131#32503#0" />
+                <element signature="e#32506#32711#0" />
+                <element signature="e#32817#32967#0" />
+                <element signature="e#32817#33107#0" />
+                <element signature="e#33110#33234#0" />
+                <element signature="e#33110#33387#0" />
+                <element signature="e#33390#33651#0" />
+                <element signature="e#33390#33811#0" />
+                <element signature="e#33814#34046#0" />
+                <element signature="e#33814#34316#0" />
+                <element signature="e#34157#34297#1" />
+                <element signature="e#34264#34293#1" />
+                <element signature="e#34319#34623#0" />
+                <element signature="e#34319#35186#0" />
+                <element signature="e#34723#34744#1" />
+                <element signature="e#34815#35139#1" />
+                <element signature="e#35000#35106#1" />
+                <element signature="e#35069#35101#1" />
+                <element signature="e#35147#35183#1" />
+                <element signature="e#35189#35348#0" />
+                <element signature="e#35189#35552#0" />
+                <element signature="e#35555#35811#0" />
+                <element signature="e#35555#36297#0" />
+                <element signature="e#36082#36125#1" />
+                <element signature="e#36300#36485#0" />
+                <element signature="e#36592#36909#0" />
+                <element signature="e#36592#37203#0" />
+                <element signature="e#37206#37390#0" />
+                <element signature="e#37206#37670#0" />
+                <element signature="e#37673#37928#0" />
+                <element signature="e#37673#38079#0" />
+                <element signature="e#38082#38390#0" />
+                <element signature="e#38082#38656#0" />
+                <element signature="e#38659#38872#0" />
+                <element signature="e#38659#39013#0" />
+                <element signature="e#39016#39225#0" />
+                <element signature="e#39340#39696#0" />
+                <element signature="e#39340#39938#0" />
+                <element signature="e#39941#40291#0" />
+                <element signature="e#39941#40439#0" />
+                <element signature="e#40442#40857#0" />
+                <element signature="e#40442#41137#0" />
+                <element signature="e#41028#41077#0" />
+                <element signature="e#41113#41134#0" />
+                <element signature="e#41140#41525#0" />
+                <element signature="e#41140#41694#0" />
+                <element signature="e#41697#42445#0" />
+                <element signature="e#41697#43443#0" />
+                <element signature="e#42688#42875#1" />
+                <element signature="e#42697#42755#0" />
+                <element signature="e#42792#42871#0" />
+                <element signature="e#42883#43440#1" />
+                <element signature="e#43006#43094#1" />
+                <element signature="e#43053#43089#1" />
+                <element signature="e#43126#43173#1" />
+                <element signature="e#43208#43319#1" />
+                <element signature="e#43328#43436#1" />
+                <element signature="e#43446#44099#0" />
+                <element signature="e#43446#44816#0" />
+                <element signature="e#44364#44495#1" />
+                <element signature="e#44373#44431#0" />
+                <element signature="e#44468#44491#0" />
+                <element signature="e#44503#44813#1" />
+                <element signature="e#44626#44714#1" />
+                <element signature="e#44673#44709#1" />
+                <element signature="e#44746#44793#1" />
+                <element signature="e#44819#45118#0" />
+                <element signature="e#44819#45754#0" />
+                <element signature="e#45424#45493#1" />
+                <element signature="e#45470#45489#1" />
+                <element signature="e#45565#45622#1" />
+                <element signature="e#45660#45735#1" />
+                <element signature="e#45757#46088#0" />
+                <element signature="e#45757#46725#0" />
+                <element signature="e#46387#46460#1" />
+                <element signature="e#46433#46456#1" />
+                <element signature="e#46532#46614#1" />
+                <element signature="e#46587#46610#1" />
+                <element signature="e#46728#48099#0" />
+                <element signature="e#46728#48900#0" />
+                <element signature="e#48303#48880#1" />
+                <element signature="e#48312#48748#0" />
+                <element signature="e#48364#48539#1" />
+                <element signature="e#48375#48465#0" />
+                <element signature="e#48504#48533#0" />
+                <element signature="e#48549#48743#1" />
+                <element signature="e#48903#49374#0" />
+                <element signature="e#48903#49951#0" />
+                <element signature="e#49536#49931#1" />
+                <element signature="e#49642#49927#1" />
+                <element signature="e#49721#49883#1" />
+                <element signature="e#49732#49814#0" />
+                <element signature="e#49954#50675#0" />
+                <element signature="e#49954#50879#0" />
+                <element signature="e#50882#51027#0" />
+                <element signature="e#51030#51214#0" />
+                <element signature="e#51030#51611#0" />
+                <element signature="e#51351#51373#1" />
+                <element signature="e#51469#51490#1" />
+                <element signature="e#51614#51978#0" />
+                <element signature="e#51614#52389#0" />
+                <element signature="e#52202#52329#0" />
+                <element signature="e#52365#52386#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ans/src/main/resources/config/dev/readConfig.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -99,6 +398,7 @@
       <list>
         <option value="JavaScript File" />
         <option value="Vue Single File Component" />
+        <option value="spring-beans.schema" />
         <option value="Class" />
       </list>
     </option>
@@ -108,6 +408,7 @@
       <find>login-</find>
       <find>xe-utils</find>
       <find>characterset</find>
+      <find>getInputStream</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -117,11 +418,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/mapper/user/UserMapper.java" />
-        <option value="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/entity/base/AuthUser.java" />
-        <option value="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/service/AuthServiceImpl.java" />
-        <option value="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/auth/AuthServiceImpl.java" />
-        <option value="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/auth/JwtUtil.java" />
         <option value="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/auth/AbstractAuthService.java" />
         <option value="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/service/acl/AuthService.java" />
         <option value="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/service/impl/UserPermissionServiceImpl.java" />
@@ -168,6 +464,11 @@
         <option value="$PROJECT_DIR$/web-past-life/src/com/ans/servlet/MyServlet.java" />
         <option value="$PROJECT_DIR$/web-past-life/web/index.jsp" />
         <option value="$PROJECT_DIR$/web-past-life/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/ans/src/test/resources/readConfig.xml" />
+        <option value="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/readConfig.xml" />
+        <option value="$PROJECT_DIR$/ans/src/main/resources/config/dev/readConfig.xml" />
+        <option value="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/spr/MyProtocolResolver.java" />
+        <option value="$PROJECT_DIR$/ans/src/test/java/com/ansimpleasy/agave/ans/MyTest.java" />
       </list>
     </option>
   </component>
@@ -233,40 +534,78 @@
             <path>
               <item name="agave" type="b2602c69:ProjectViewProjectNode" />
               <item name="agave" type="462c0819:PsiDirectoryNode" />
-              <item name="web-past-life" type="462c0819:PsiDirectoryNode" />
+              <item name="ans" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="agave" type="b2602c69:ProjectViewProjectNode" />
               <item name="agave" type="462c0819:PsiDirectoryNode" />
-              <item name="web-past-life" type="462c0819:PsiDirectoryNode" />
+              <item name="ans" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="agave" type="b2602c69:ProjectViewProjectNode" />
               <item name="agave" type="462c0819:PsiDirectoryNode" />
-              <item name="web-past-life" type="462c0819:PsiDirectoryNode" />
+              <item name="ans" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="agave" type="b2602c69:ProjectViewProjectNode" />
               <item name="agave" type="462c0819:PsiDirectoryNode" />
-              <item name="web-past-life" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="ans" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="agave" type="b2602c69:ProjectViewProjectNode" />
               <item name="agave" type="462c0819:PsiDirectoryNode" />
-              <item name="web-past-life" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="ans" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ans" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="agave" type="b2602c69:ProjectViewProjectNode" />
+              <item name="agave" type="462c0819:PsiDirectoryNode" />
+              <item name="ans" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ans" type="462c0819:PsiDirectoryNode" />
+              <item name="spr" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="agave" type="b2602c69:ProjectViewProjectNode" />
+              <item name="agave" type="462c0819:PsiDirectoryNode" />
+              <item name="ans" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="agave" type="b2602c69:ProjectViewProjectNode" />
+              <item name="agave" type="462c0819:PsiDirectoryNode" />
+              <item name="ans" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="agave" type="b2602c69:ProjectViewProjectNode" />
+              <item name="agave" type="462c0819:PsiDirectoryNode" />
+              <item name="ans" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ans" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -277,30 +616,33 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573717107127" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574153499141" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="js-jscs-nodeInterpreter" value="E:\ansimpleasy\nodejs\node.exe" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="I:\LiuCan\agave\Doc" />
-      <recent name="I:\LiuCan\agave\ans-ui\src\assets" />
-      <recent name="I:\LiuCan\agave\ans-ui\src\api" />
-      <recent name="I:\LiuCan\agave\ans-ui\src" />
-      <recent name="I:\LiuCan\agave\ans-ui\src\common" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="I:\LiuCan\agave\ans\src\main\java\com\ansimpleasy\agave\ans" />
+      <recent name="I:\LiuCan\agave\ans" />
+      <recent name="I:\LiuCan\agave\ans\src\main\resources" />
       <recent name="E:\ansimpleasy\Agave\agave\ans\src\main\java\com\ansimpleasy\agave\ans\mapper\user" />
       <recent name="E:\ansimpleasy\Agave\agave\ans\src\main\java\com\ansimpleasy\agave\ans\mapper" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="I:\LiuCan\agave\ans\src\main\resources\config\dev" />
+      <recent name="I:\LiuCan\agave\ans\src\test\java\com\ansimpleasy\agave\ans" />
+      <recent name="I:\LiuCan\agave\ans\src\test\resources" />
+      <recent name="I:\LiuCan\agave\Doc" />
+      <recent name="I:\LiuCan\agave\ans-ui\src\assets" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -315,7 +657,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.MyServlet">
+  <component name="RunManager" selected="JUnit.MyTest.test5">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -461,6 +803,78 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method v="2" />
     </configuration>
+    <configuration name="MyTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ans" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ansimpleasy.agave.ans.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ansimpleasy.agave.ans" />
+      <option name="MAIN_CLASS_NAME" value="com.ansimpleasy.agave.ans.MyTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ans" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ansimpleasy.agave.ans.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ansimpleasy.agave.ans" />
+      <option name="MAIN_CLASS_NAME" value="com.ansimpleasy.agave.ans.MyTest" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ans" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ansimpleasy.agave.ans.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ansimpleasy.agave.ans" />
+      <option name="MAIN_CLASS_NAME" value="com.ansimpleasy.agave.ans.MyTest" />
+      <option name="METHOD_NAME" value="test4" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ans" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ansimpleasy.agave.ans.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ansimpleasy.agave.ans" />
+      <option name="MAIN_CLASS_NAME" value="com.ansimpleasy.agave.ans.MyTest" />
+      <option name="METHOD_NAME" value="test5" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
@@ -570,7 +984,19 @@
     <list>
       <item itemvalue="Spring Boot.AnsApplication" />
       <item itemvalue="Tomcat Server.MyServlet" />
+      <item itemvalue="JUnit.MyTest.test1" />
+      <item itemvalue="JUnit.MyTest.test2" />
+      <item itemvalue="JUnit.MyTest.test4" />
+      <item itemvalue="JUnit.MyTest.test5" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MyTest.test5" />
+        <item itemvalue="JUnit.MyTest.test2" />
+        <item itemvalue="JUnit.MyTest.test4" />
+        <item itemvalue="JUnit.MyTest.test1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -595,7 +1021,9 @@
       <workItem from="1570671991796" duration="12837000" />
       <workItem from="1571035774672" duration="787000" />
       <workItem from="1572856332955" duration="4227000" />
-      <workItem from="1573695912631" duration="8558000" />
+      <workItem from="1573695912631" duration="9390000" />
+      <workItem from="1573779662191" duration="625000" />
+      <workItem from="1574147082433" duration="6081000" />
     </task>
     <task id="LOCAL-00001" summary="#Add:jwt依赖">
       <created>1566184582395</created>
@@ -681,17 +1109,56 @@
       <option name="project" value="LOCAL" />
       <updated>1570760740072</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="#Add:111">
+      <created>1573717159702</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1573717159702</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="MyTest_test2 - 2019.11.19 at 16h 08m 26s.xml">
+      <configuration name="MyTest.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyTest_test2 - 2019.11.19 at 16h 09m 09s.xml">
+      <configuration name="MyTest.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyTest_test2 - 2019.11.19 at 16h 09m 46s.xml">
+      <configuration name="MyTest.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyTest_test2 - 2019.11.19 at 16h 10m 25s.xml">
+      <configuration name="MyTest.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyTest_test2 - 2019.11.19 at 16h 11m 26s.xml">
+      <configuration name="MyTest.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyTest_test2 - 2019.11.19 at 16h 37m 28s.xml">
+      <configuration name="MyTest.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyTest_test2 - 2019.11.19 at 16h 38m 04s.xml">
+      <configuration name="MyTest.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyTest_test4 - 2019.11.19 at 16h 39m 43s.xml">
+      <configuration name="MyTest.test4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyTest_test2 - 2019.11.19 at 16h 39m 49s.xml">
+      <configuration name="MyTest.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyTest_test5 - 2019.11.19 at 16h 51m 27s.xml">
+      <configuration name="MyTest.test5" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56074000" />
+    <option name="totallyTimeSpent" value="63612000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="0" width="1938" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2593583" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2657754" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="UI Designer" order="3" />
@@ -700,11 +1167,10 @@
       <window_info id="Image Layers" order="6" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Web" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Application Servers" weight="0.32922733" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.44456887" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32922733" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37961927" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.44680852" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -719,6 +1185,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="15" />
       <window_info anchor="bottom" id="Database Changes" order="16" />
       <window_info anchor="bottom" id="Build" order="17" />
+      <window_info anchor="bottom" id="Application Servers" order="18" weight="0.32922733" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Maven" order="1" weight="0.32994652" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.24973261" />
@@ -794,156 +1261,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ans-ui/src/common/validator.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ans-ui/src/components/layout/Header.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-843">
-          <caret line="187" column="5" selection-start-line="187" selection-start-column="5" selection-end-line="187" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ans-ui/src/common/rules/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ans-ui/src/plugins/element.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ans-ui/src/assets/login.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ans-ui/src/assets/login-logo.jpg" />
-    <entry file="file://$PROJECT_DIR$/ans-ui/src/assets/aaa.jpg" />
-    <entry file="file://$PROJECT_DIR$/ans-ui/src/components/layout/Layout.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="40" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ans-ui/src/views/Register.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.6.RELEASE/spring-boot-autoconfigure-2.1.6.RELEASE.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="35" column="41" lean-forward="true" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ans-ui/src/element-variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ans/src/main/resources/banner.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.6.RELEASE/spring-boot-autoconfigure-2.1.6.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="51" column="25" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/AnsApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="28" column="62" selection-start-line="28" selection-start-column="62" selection-end-line="28" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="38" column="30" lean-forward="true" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ans-ui/src/assets/logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ans-ui/src/assets/timg.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ans/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="147" column="55" selection-start-line="147" selection-start-column="55" selection-end-line="147" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/entity/base/BaseEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/entity/base/StatefulBaseEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="44" lean-forward="true" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ans-ui/src/views/platform/doc/img.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ans-ui/src/common/permissions.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ans-ui/src/store.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ans-ui/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ans-ui/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1331">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ans-ui/package-lock.json" />
     <entry file="file://$PROJECT_DIR$/ans-ui/src/api/user/index.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -1021,47 +1338,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-five/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter01/chapter01.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter01/servlets/servlet/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter01/servlets/servlets.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter01/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter01/servlets/servlet/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter01/servlets/servlet/servlet.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-five/build.gradle" />
+    <entry file="file://$PROJECT_DIR$/chapter01/chapter01.iml" />
+    <entry file="file://$PROJECT_DIR$/chapter01/servlets/servlet/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/chapter01/servlets/servlets.iml" />
+    <entry file="file://$PROJECT_DIR$/chapter01/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/chapter01/servlets/servlet/src/main/webapp/WEB-INF/web.xml" />
+    <entry file="file://$PROJECT_DIR$/chapter01/servlets/servlet/servlet.iml" />
     <entry file="file://E:/Program Files/Apache/Maven/apache-maven-3.6.0/conf/settings.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -1069,9 +1352,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-past-life/src/com/ans/servlet.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/web-past-life/src/com/ans/servlet.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.21/tomcat-embed-core-9.0.21.jar!/javax/servlet/http/HttpServlet.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -1086,25 +1367,533 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web-past-life/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web-past-life/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-past-life/src/com/ans/servlet/MyServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="32" column="35" lean-forward="true" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+        <state relative-caret-position="329">
+          <caret line="29" column="34" lean-forward="true" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1461#1462#0" expanded="true" />
-            <element signature="e#1500#1501#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-past-life/web/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/entity/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        <state relative-caret-position="220">
+          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/entity/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.8.RELEASE/spring-core-5.1.8.RELEASE.jar!/org/springframework/core/io/ClassPathResource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+          <folding>
+            <element signature="e#714#715#0" expanded="true" />
+            <element signature="e#759#760#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ans/readConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.8.RELEASE/spring-core-5.1.8.RELEASE-sources.jar!/org/springframework/util/StringUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1154">
+          <caret line="644" column="25" selection-start-line="644" selection-start-column="25" selection-end-line="644" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_202/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="1432" column="19" selection-start-line="1432" selection-start-column="19" selection-end-line="1432" selection-end-column="19" />
+          <folding>
+            <element signature="e#55800#55801#0" expanded="true" />
+            <element signature="e#55844#55845#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_202/src.zip!/java/io/IOException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="57" column="10" lean-forward="true" selection-start-line="57" selection-start-column="10" selection-end-line="57" selection-end-column="10" />
+          <folding>
+            <element signature="e#1066#1067#0" expanded="true" />
+            <element signature="e#1096#1097#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_202/src.zip!/java/lang/Throwable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="779" column="34" selection-start-line="779" selection-start-column="34" selection-end-line="779" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_202/src.zip!/java/net/UnknownServiceException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="631">
+          <caret line="55" column="10" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
+          <folding>
+            <element signature="e#1032#1033#0" expanded="true" />
+            <element signature="e#1058#1059#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_202/src.zip!/java/net/URLStreamHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="70" column="45" selection-start-line="70" selection-start-column="45" selection-end-line="70" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_202/src.zip!/java/net/URLConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="834" column="6" lean-forward="true" selection-start-line="834" selection-start-column="6" selection-end-line="834" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_202/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="2222" column="27" selection-start-line="2222" selection-start-column="27" selection-end-line="2222" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_202/src.zip!/java/io/InputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="44" column="22" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_202/src.zip!/java/lang/ClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="1301" column="16" lean-forward="true" selection-start-line="1301" selection-start-column="16" selection-end-line="1301" selection-end-column="16" />
+          <folding>
+            <element signature="e#44527#44528#0" expanded="true" />
+            <element signature="e#44554#44555#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.8.RELEASE/spring-core-5.1.8.RELEASE-sources.jar!/org/springframework/core/io/ClassPathResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="173" column="43" selection-start-line="173" selection-start-column="43" selection-end-line="173" selection-end-column="43" />
+          <folding>
+            <element signature="docComment;class#ClassPathResource#0" />
+            <element signature="docComment;method#ClassPathResource#0;class#ClassPathResource#0" />
+            <element signature="docComment;method#ClassPathResource#1;class#ClassPathResource#0" />
+            <element signature="docComment;method#ClassPathResource#2;class#ClassPathResource#0" />
+            <element signature="docComment;method#ClassPathResource#3;class#ClassPathResource#0" />
+            <element signature="method#ClassPathResource#3;class#ClassPathResource#0" />
+            <element signature="docComment;method#getPath#0;class#ClassPathResource#0" />
+            <element signature="docComment;method#getClassLoader#0;class#ClassPathResource#0" />
+            <element signature="method#getClassLoader#0;class#ClassPathResource#0" />
+            <element signature="docComment;method#exists#0;class#ClassPathResource#0" />
+            <element signature="docComment;method#resolveURL#0;class#ClassPathResource#0" />
+            <element signature="method#resolveURL#0;class#ClassPathResource#0" />
+            <element signature="e#5063#5113#1" />
+            <element signature="e#5151#5207#1" />
+            <element signature="e#5215#5272#1" />
+            <element signature="docComment;method#getInputStream#0;class#ClassPathResource#0" />
+            <element signature="docComment;method#getURL#0;class#ClassPathResource#0" />
+            <element signature="method#getURL#0;class#ClassPathResource#0" />
+            <element signature="e#6263#6379#1" />
+            <element signature="docComment;method#createRelative#0;class#ClassPathResource#0" />
+            <element signature="method#createRelative#0;class#ClassPathResource#0" />
+            <element signature="docComment;method#getFilename#0;class#ClassPathResource#0" />
+            <element signature="e#7094#7103#0" />
+            <element signature="docComment;method#getDescription#0;class#ClassPathResource#0" />
+            <element signature="method#getDescription#0;class#ClassPathResource#0" />
+            <element signature="e#7493#7592#1" />
+            <element signature="e#7626#7670#1" />
+            <element signature="docComment;method#equals#0;class#ClassPathResource#0" />
+            <element signature="method#equals#0;class#ClassPathResource#0" />
+            <element signature="e#7908#7929#1" />
+            <element signature="e#7975#7997#1" />
+            <element signature="docComment;method#hashCode#0;class#ClassPathResource#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_202/src.zip!/java/lang/Exception.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="65" column="10" selection-start-line="65" selection-start-column="10" selection-end-line="65" selection-end-column="10" />
+          <folding>
+            <element signature="e#1663#1664#0" expanded="true" />
+            <element signature="e#1693#1694#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ans/src/test/java/com/ansimpleasy/agave/ans/readConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/readConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ans/src/main/resources/config/dev/readConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.8.RELEASE/spring-core-5.1.8.RELEASE-sources.jar!/org/springframework/util/ClassUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90">
+          <caret line="178" column="30" selection-start-line="178" selection-start-column="30" selection-end-line="178" selection-end-column="30" />
+          <folding>
+            <element signature="docComment;class#ClassUtils#0" />
+            <element signature="e#1650#1700#0" />
+            <element signature="e#1752#1810#0" />
+            <element signature="e#1871#1944#0" />
+            <element signature="e#2011#2063#0" />
+            <element signature="e#2118#2167#0" />
+            <element signature="e#2219#2275#0" />
+            <element signature="e#2334#2381#0" />
+            <element signature="e#2442#2474#0" />
+            <element signature="e#2536#2675#0" />
+            <element signature="e#2776#2905#0" />
+            <element signature="e#3008#3138#0" />
+            <element signature="e#3227#3388#0" />
+            <element signature="e#3473#3606#0" />
+            <element signature="initializer##0;class#ClassUtils#0" />
+            <element signature="e#4305#4420#1" />
+            <element signature="e#4775#4849#1" />
+            <element signature="e#5791#5864#0" />
+            <element signature="e#5791#6033#0" />
+            <element signature="e#5976#6030#1" />
+            <element signature="e#6036#6737#0" />
+            <element signature="e#7433#7805#0" />
+            <element signature="e#7433#8265#0" />
+            <element signature="e#8134#8233#1" />
+            <element signature="e#8241#8262#1" />
+            <element signature="e#8268#8970#0" />
+            <element signature="e#8268#10849#0" />
+            <element signature="e#9224#9268#1" />
+            <element signature="e#9290#9312#1" />
+            <element signature="e#9388#9604#1" />
+            <element signature="e#9719#9939#1" />
+            <element signature="e#10037#10233#1" />
+            <element signature="e#10295#10338#1" />
+            <element signature="e#10345#10397#0" />
+            <element signature="e#10434#10846#0" />
+            <element signature="e#10522#10829#1" />
+            <element signature="e#10658#10724#0" />
+            <element signature="e#10852#11900#0" />
+            <element signature="e#10852#12543#0" />
+            <element signature="e#12039#12087#0" />
+            <element signature="e#12121#12271#0" />
+            <element signature="e#12299#12411#0" />
+            <element signature="e#12448#12540#0" />
+            <element signature="e#12546#13360#0" />
+            <element signature="e#12546#13811#0" />
+            <element signature="e#13455#13512#0" />
+            <element signature="e#13546#13696#0" />
+            <element signature="e#13720#13808#0" />
+            <element signature="e#13814#14094#0" />
+            <element signature="e#13814#14500#0" />
+            <element signature="e#14208#14229#1" />
+            <element signature="e#14236#14311#0" />
+            <element signature="e#14284#14307#1" />
+            <element signature="e#14503#14831#0" />
+            <element signature="e#14503#15828#0" />
+            <element signature="e#14977#15551#0" />
+            <element signature="e#15094#15117#1" />
+            <element signature="e#15146#15170#1" />
+            <element signature="e#15283#15377#1" />
+            <element signature="e#15347#15372#1" />
+            <element signature="e#15450#15547#1" />
+            <element signature="e#15516#15542#1" />
+            <element signature="e#15635#15698#0" />
+            <element signature="e#15831#16045#0" />
+            <element signature="e#15831#16349#0" />
+            <element signature="e#16130#16245#0" />
+            <element signature="e#16282#16346#0" />
+            <element signature="e#16352#16894#0" />
+            <element signature="e#16352#17282#0" />
+            <element signature="e#17009#17070#0" />
+            <element signature="e#17176#17262#1" />
+            <element signature="e#17285#17530#0" />
+            <element signature="e#17285#17697#0" />
+            <element signature="e#17700#18041#0" />
+            <element signature="e#17700#18218#0" />
+            <element signature="e#18221#18458#0" />
+            <element signature="e#18221#18640#0" />
+            <element signature="e#18643#18905#0" />
+            <element signature="e#18643#19100#0" />
+            <element signature="e#19103#19354#0" />
+            <element signature="e#19103#19580#0" />
+            <element signature="e#19583#20010#0" />
+            <element signature="e#19583#20651#0" />
+            <element signature="e#20261#20282#1" />
+            <element signature="e#20312#20448#1" />
+            <element signature="e#20421#20444#1" />
+            <element signature="e#20456#20632#1" />
+            <element signature="e#20605#20628#1" />
+            <element signature="e#20654#21006#0" />
+            <element signature="e#20654#21227#0" />
+            <element signature="e#21230#21438#0" />
+            <element signature="e#21230#21649#0" />
+            <element signature="e#21652#21860#0" />
+            <element signature="e#21652#22059#0" />
+            <element signature="e#22062#22953#0" />
+            <element signature="e#22062#23280#0" />
+            <element signature="e#23147#23218#1" />
+            <element signature="e#23283#24030#0" />
+            <element signature="e#23283#24433#0" />
+            <element signature="e#24129#24148#1" />
+            <element signature="e#24282#24301#1" />
+            <element signature="e#24436#24829#0" />
+            <element signature="e#24952#25376#0" />
+            <element signature="e#24952#25795#0" />
+            <element signature="e#25500#25521#1" />
+            <element signature="e#25634#25750#1" />
+            <element signature="e#25719#25746#1" />
+            <element signature="e#25798#26083#0" />
+            <element signature="e#26209#26472#0" />
+            <element signature="e#26209#26650#0" />
+            <element signature="e#26653#26985#0" />
+            <element signature="e#27108#27586#0" />
+            <element signature="e#27108#27767#0" />
+            <element signature="e#27770#28027#0" />
+            <element signature="e#27770#28218#0" />
+            <element signature="e#28221#28547#0" />
+            <element signature="e#28221#28680#0" />
+            <element signature="e#28683#29155#0" />
+            <element signature="e#28683#29751#0" />
+            <element signature="e#29379#29424#1" />
+            <element signature="e#29531#29727#1" />
+            <element signature="e#29608#29685#1" />
+            <element signature="e#29647#29680#1" />
+            <element signature="e#29754#30315#0" />
+            <element signature="e#29754#30597#0" />
+            <element signature="e#30600#30990#0" />
+            <element signature="e#30600#31549#0" />
+            <element signature="e#31128#31151#1" />
+            <element signature="e#31174#31197#1" />
+            <element signature="e#31237#31260#1" />
+            <element signature="e#31300#31323#1" />
+            <element signature="e#31359#31481#1" />
+            <element signature="e#31454#31477#1" />
+            <element signature="e#31552#32015#0" />
+            <element signature="e#32131#32368#0" />
+            <element signature="e#32131#32503#0" />
+            <element signature="e#32506#32711#0" />
+            <element signature="e#32817#32967#0" />
+            <element signature="e#32817#33107#0" />
+            <element signature="e#33110#33234#0" />
+            <element signature="e#33110#33387#0" />
+            <element signature="e#33390#33651#0" />
+            <element signature="e#33390#33811#0" />
+            <element signature="e#33814#34046#0" />
+            <element signature="e#33814#34316#0" />
+            <element signature="e#34157#34297#1" />
+            <element signature="e#34264#34293#1" />
+            <element signature="e#34319#34623#0" />
+            <element signature="e#34319#35186#0" />
+            <element signature="e#34723#34744#1" />
+            <element signature="e#34815#35139#1" />
+            <element signature="e#35000#35106#1" />
+            <element signature="e#35069#35101#1" />
+            <element signature="e#35147#35183#1" />
+            <element signature="e#35189#35348#0" />
+            <element signature="e#35189#35552#0" />
+            <element signature="e#35555#35811#0" />
+            <element signature="e#35555#36297#0" />
+            <element signature="e#36082#36125#1" />
+            <element signature="e#36300#36485#0" />
+            <element signature="e#36592#36909#0" />
+            <element signature="e#36592#37203#0" />
+            <element signature="e#37206#37390#0" />
+            <element signature="e#37206#37670#0" />
+            <element signature="e#37673#37928#0" />
+            <element signature="e#37673#38079#0" />
+            <element signature="e#38082#38390#0" />
+            <element signature="e#38082#38656#0" />
+            <element signature="e#38659#38872#0" />
+            <element signature="e#38659#39013#0" />
+            <element signature="e#39016#39225#0" />
+            <element signature="e#39340#39696#0" />
+            <element signature="e#39340#39938#0" />
+            <element signature="e#39941#40291#0" />
+            <element signature="e#39941#40439#0" />
+            <element signature="e#40442#40857#0" />
+            <element signature="e#40442#41137#0" />
+            <element signature="e#41028#41077#0" />
+            <element signature="e#41113#41134#0" />
+            <element signature="e#41140#41525#0" />
+            <element signature="e#41140#41694#0" />
+            <element signature="e#41697#42445#0" />
+            <element signature="e#41697#43443#0" />
+            <element signature="e#42688#42875#1" />
+            <element signature="e#42697#42755#0" />
+            <element signature="e#42792#42871#0" />
+            <element signature="e#42883#43440#1" />
+            <element signature="e#43006#43094#1" />
+            <element signature="e#43053#43089#1" />
+            <element signature="e#43126#43173#1" />
+            <element signature="e#43208#43319#1" />
+            <element signature="e#43328#43436#1" />
+            <element signature="e#43446#44099#0" />
+            <element signature="e#43446#44816#0" />
+            <element signature="e#44364#44495#1" />
+            <element signature="e#44373#44431#0" />
+            <element signature="e#44468#44491#0" />
+            <element signature="e#44503#44813#1" />
+            <element signature="e#44626#44714#1" />
+            <element signature="e#44673#44709#1" />
+            <element signature="e#44746#44793#1" />
+            <element signature="e#44819#45118#0" />
+            <element signature="e#44819#45754#0" />
+            <element signature="e#45424#45493#1" />
+            <element signature="e#45470#45489#1" />
+            <element signature="e#45565#45622#1" />
+            <element signature="e#45660#45735#1" />
+            <element signature="e#45757#46088#0" />
+            <element signature="e#45757#46725#0" />
+            <element signature="e#46387#46460#1" />
+            <element signature="e#46433#46456#1" />
+            <element signature="e#46532#46614#1" />
+            <element signature="e#46587#46610#1" />
+            <element signature="e#46728#48099#0" />
+            <element signature="e#46728#48900#0" />
+            <element signature="e#48303#48880#1" />
+            <element signature="e#48312#48748#0" />
+            <element signature="e#48364#48539#1" />
+            <element signature="e#48375#48465#0" />
+            <element signature="e#48504#48533#0" />
+            <element signature="e#48549#48743#1" />
+            <element signature="e#48903#49374#0" />
+            <element signature="e#48903#49951#0" />
+            <element signature="e#49536#49931#1" />
+            <element signature="e#49642#49927#1" />
+            <element signature="e#49721#49883#1" />
+            <element signature="e#49732#49814#0" />
+            <element signature="e#49954#50675#0" />
+            <element signature="e#49954#50879#0" />
+            <element signature="e#50882#51027#0" />
+            <element signature="e#51030#51214#0" />
+            <element signature="e#51030#51611#0" />
+            <element signature="e#51351#51373#1" />
+            <element signature="e#51469#51490#1" />
+            <element signature="e#51614#51978#0" />
+            <element signature="e#51614#52389#0" />
+            <element signature="e#52202#52329#0" />
+            <element signature="e#52365#52386#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.8.RELEASE/spring-core-5.1.8.RELEASE-sources.jar!/org/springframework/util/ResourceUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="50" column="31" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.8.RELEASE/spring-core-5.1.8.RELEASE-sources.jar!/org/springframework/core/io/ResourceLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="44" column="58" selection-start-line="44" selection-start-column="58" selection-end-line="44" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_202/src.zip!/java/net/URL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="437" column="11" selection-start-line="437" selection-start-column="11" selection-end-line="437" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.8.RELEASE/spring-core-5.1.8.RELEASE-sources.jar!/org/springframework/core/io/DefaultResourceLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="166" column="48" selection-start-line="166" selection-start-column="40" selection-end-line="166" selection-end-column="48" />
+          <folding>
+            <element signature="docComment;class#DefaultResourceLoader#0" />
+            <element signature="docComment;method#DefaultResourceLoader#0;class#DefaultResourceLoader#0" />
+            <element signature="docComment;method#DefaultResourceLoader#1;class#DefaultResourceLoader#0" />
+            <element signature="docComment;method#setClassLoader#0;class#DefaultResourceLoader#0" />
+            <element signature="docComment;method#getClassLoader#0;class#DefaultResourceLoader#0" />
+            <element signature="e#3268#3277#0" />
+            <element signature="docComment;method#addProtocolResolver#0;class#DefaultResourceLoader#0" />
+            <element signature="method#addProtocolResolver#0;class#DefaultResourceLoader#0" />
+            <element signature="docComment;method#getProtocolResolvers#0;class#DefaultResourceLoader#0" />
+            <element signature="docComment;method#getResourceCache#0;class#DefaultResourceLoader#0" />
+            <element signature="method#getResourceCache#0;class#DefaultResourceLoader#0" />
+            <element signature="docComment;method#clearResourceCaches#0;class#DefaultResourceLoader#0" />
+            <element signature="docComment;method#getResourceByPath#0;class#DefaultResourceLoader#0" />
+            <element signature="e#6317#6318#0" expanded="true" />
+            <element signature="e#6383#6384#0" expanded="true" />
+            <element signature="docComment;class#ClassPathContextResource#0;class#DefaultResourceLoader#0" />
+            <element signature="class#ClassPathContextResource#0;class#DefaultResourceLoader#0" />
+            <element signature="method#createRelative#0;class#ClassPathContextResource#0;class#DefaultResourceLoader#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/spr/MyProtocolResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ans/src/test/java/com/ansimpleasy/agave/ans/MyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="51" column="1" lean-forward="true" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1162,11 +1951,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring|ans</last-edited>
+          <last-edited>ans</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
