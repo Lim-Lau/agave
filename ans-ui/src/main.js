@@ -1,26 +1,26 @@
-import '@/plugins/axios'
-import '@/plugins/use'
-import './plugins/element.js'
+import '@/plugins/axios';
+import '@/plugins/use';
+import './plugins/element.js';
 import "font-awesome/css/font-awesome.css";
 
-import App from './App.vue'
+import App from './App.vue';
 import VCalendar from 'v-calendar';
-import VCharts from 'v-charts'
-import Vue from 'vue'
-import api from '@/api'
+import VCharts from 'v-charts';
+import Vue from 'vue';
+import api from '@/api';
 import config from "@/config/defaultSettings";
 import permissions from "@/common/permissions";
 import router from '@/router'
 import rules from "@/common/rules";
 import store from '@/store'
 import validator from "@/common/validator";
-import Cookies from 'js-cookie'
-import VXETable from 'vxe-table'
-import 'vxe-table/lib/index.css'
-import VXETablePluginElement from 'vxe-table-plugin-element'
-
-Vue.use(VXETable)
-VXETable.use(VXETablePluginElement)
+import Cookies from 'js-cookie';
+import 'xe-utils'
+import VXETable from 'vxe-table';
+import 'vxe-table/lib/index.css';
+import VXETablePluginElement from 'vxe-table-plugin-element';
+Vue.use(VXETable);
+VXETable.use(VXETablePluginElement);
 
 Vue.use(VCharts)
 Vue.use(VCalendar, {

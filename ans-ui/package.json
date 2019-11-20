@@ -32,7 +32,7 @@
     "vxe-table": "^2.2.4",
     "vxe-table-plugin-element": "^1.2.0",
     "vxe-utils": "^1.7.2",
-    "xe-utils": "^2.2.10"
+    "xe-utils": "^2.2.12"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.4.0",

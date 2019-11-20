@@ -4,6 +4,7 @@ package com.ansimpleasy.ans.controller;
 import com.ansimpleasy.ans.auth.AuthServiceImpl;
 import com.ansimpleasy.ans.entity.User;
 import com.ansimpleasy.ans.result.Result;
+import com.ansimpleasy.ans.service.acl.AuthService;
 import com.ansimpleasy.ans.service.impl.UserServiceImpl;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -18,10 +19,12 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/user")
 @Api(value = "User" , tags = {"用户相关接口"})
-public class UserController {
+public class UserController extends BaseController{
 
     @Autowired
     private UserServiceImpl userService;
+    @Autowired
+    AuthService authService;
 
     @PostMapping("/login")
     @ApiOperation("用户登录")
@@ -30,6 +33,11 @@ public class UserController {
         return Result.success().addData("user" , userService.login(user));
     }
 
+    @GetMapping("check")
+    @ApiOperation("检查token有效性")
+    public Result check() {
+        return user() == null ? Result.fail() : Result.success();
+    }
 
     @PostMapping("/register")
     @ApiOperation("用户注册")

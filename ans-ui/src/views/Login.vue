@@ -16,12 +16,13 @@
                     </el-input>
                 </el-form-item>
                 <el-form-item prop="password" label="密码" label-width="80px" :label-position="labelPosition">
-                    <el-input v-model="user.password"
+                    <el-input type="password" v-model="user.password"
+                              show-password
                               placeholder="请输入密码"
                               suffix-icon="fa fa-lock">
                     </el-input>
                 </el-form-item>
-                <el-form-item prop="rememberMe">
+                <el-form-item class="remember" prop="rememberMe">
                     <el-checkbox v-model="user.rememberMe">
                         记住我
                     </el-checkbox>
@@ -141,4 +142,8 @@
         width: 100%;
         height: 36px;
     }
+    .remember {
+
+    }
+
 </style>
