@@ -6,8 +6,77 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3880e195-15c3-424b-9151-7e8a8df08da2" name="Default Changelist" comment="#Del:@Data注解">
+    <list default="true" id="3880e195-15c3-424b-9151-7e8a8df08da2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_58.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/enums/AnsIEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_8.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ans/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ans/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/AnsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/AnsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/annotation/DataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/annotation/DataSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/aop/DataSourceAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/aop/DataSourceAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/auth/AbstractAuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/auth/AbstractAuthService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/auth/AuthServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/auth/AuthServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/auth/AuthUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/auth/AuthUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/auth/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/auth/JwtUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/common/CredentialsMatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/common/CredentialsMatcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/config/DruidConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/config/DruidConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/config/MybatisplusConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/config/MybatisplusConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/config/SwaggerConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/config/SwaggerConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/controller/PermissionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/controller/PermissionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/controller/RoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/controller/RoleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/controller/RolePermissionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/controller/RolePermissionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/controller/UserPermissionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/controller/UserPermissionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/controller/UserRoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/controller/UserRoleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/entity/Permission.java" beforeDir="false" afterPath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/entity/Permission.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/entity/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/entity/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/entity/RolePermission.java" beforeDir="false" afterPath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/entity/RolePermission.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/entity/UserPermission.java" beforeDir="false" afterPath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/entity/UserPermission.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/entity/UserRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/entity/UserRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/entity/base/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/entity/base/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/entity/base/StatefulBaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/entity/base/StatefulBaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/enums/DataSourceEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/enums/DataSourceEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/enums/Sex.java" beforeDir="false" afterPath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/enums/Sex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/enums/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/enums/Status.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/exception/AnsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/exception/AnsException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/exception/AnsExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/exception/AnsExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/generator/MpGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/generator/MpGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/mapper/permission/PermissionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/mapper/permission/PermissionMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/mapper/permission/PermissionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/mapper/permission/PermissionMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/mapper/role/RoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/mapper/role/RoleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/mapper/role/RoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/mapper/role/RoleMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/mapper/temp/RolePermissionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/mapper/temp/RolePermissionMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/mapper/temp/RolePermissionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/mapper/temp/RolePermissionMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/mapper/temp/UserPermissionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/mapper/temp/UserPermissionMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/mapper/temp/UserPermissionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/mapper/temp/UserPermissionMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/mapper/temp/UserRoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/mapper/temp/UserRoleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/mapper/temp/UserRoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/mapper/temp/UserRoleMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/mapper/user/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/mapper/user/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/mapper/user/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/mapper/user/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/multiple/DataSourceContextHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/multiple/DataSourceContextHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/multiple/MultipleDataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/multiple/MultipleDataSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/readConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/readConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/result/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/result/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/service/IPermissionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/service/IPermissionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/service/IRolePermissionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/service/IRolePermissionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/service/IRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/service/IRoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/service/IUserPermissionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/service/IUserPermissionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/service/IUserRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/service/IUserRoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/service/IUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/service/acl/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/service/acl/AuthService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/service/impl/PermissionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/service/impl/PermissionServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/service/impl/RolePermissionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/service/impl/RolePermissionServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/service/impl/RoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/service/impl/UserPermissionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/service/impl/UserPermissionServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/service/impl/UserRoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/service/impl/UserRoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/spr/MyProtocolResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/spr/MyProtocolResolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ans/src/main/resources/config/dev/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ans/src/main/resources/config/dev/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ans/src/test/java/com/ansimpleasy/agave/ans/AnsApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/ans/src/test/java/com/ansimpleasy/ans/AnsApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ans/src/test/java/com/ansimpleasy/agave/ans/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ans/src/test/java/com/ansimpleasy/ans/MyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ans/src/test/java/com/ansimpleasy/agave/ans/readConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ans/src/test/java/com/ansimpleasy/ans/readConfig.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/ans/target/" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -17,7 +86,7 @@
     <ignored path="$PROJECT_DIR$/chapter01/target/" />
     <ignored path="$PROJECT_DIR$/chapter01/servlets/target/" />
     <ignored path="$PROJECT_DIR$/chapter01/servlets/servlet/target/" />
-    <ignored path=".idea/" />
+    <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,96 +118,107 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/entity/base/StatefulBaseEntity.java">
+        <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/enums/Status.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="46" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="46" />
+              <folding>
+                <element signature="e#625#626#0" expanded="true" />
+                <element signature="e#652#653#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.0-RC1/mybatis-plus-core-3.0-RC1-sources.jar!/com/baomidou/mybatisplus/core/enums/IEnum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/service/impl/UserServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/entity/base/BaseEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/mapper/user/UserMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/mapper/user/UserMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="106" selection-start-line="11" selection-start-column="106" selection-end-line="11" selection-end-column="106" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/entity/base/StatefulBaseEntity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
-              <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+              <caret line="13" column="15" lean-forward="true" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
               <folding>
-                <element signature="e#354#355#0" expanded="true" />
-                <element signature="e#383#384#0" expanded="true" />
-                <element signature="e#427#428#0" expanded="true" />
-                <element signature="e#463#464#0" expanded="true" />
+                <element signature="e#342#343#0" expanded="true" />
+                <element signature="e#371#372#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/enums/Sex.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="e#487#488#0" expanded="true" />
+                <element signature="e#514#515#0" expanded="true" />
+                <element signature="e#545#546#0" expanded="true" />
+                <element signature="e#572#573#0" expanded="true" />
+                <element signature="e#615#616#0" expanded="true" />
+                <element signature="e#642#643#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/spr/MyProtocolResolver.java">
+        <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/enums/DataSourceEnum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="88">
+              <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/entity/User.java">
+        <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/entity/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="30" column="25" lean-forward="true" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
-              <folding>
-                <element signature="e#470#471#0" expanded="true" />
-                <element signature="e#497#498#0" expanded="true" />
-                <element signature="e#537#538#0" expanded="true" />
-                <element signature="e#569#570#0" expanded="true" />
-                <element signature="e#604#605#0" expanded="true" />
-                <element signature="e#635#636#0" expanded="true" />
-                <element signature="e#683#684#0" expanded="true" />
-                <element signature="e#723#724#0" expanded="true" />
-                <element signature="e#855#856#0" expanded="true" />
-                <element signature="e#881#882#0" expanded="true" />
-                <element signature="e#916#917#0" expanded="true" />
-                <element signature="e#946#947#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/mapper/user/UserMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="53" lean-forward="true" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/mapper/user/UserMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/service/impl/UserServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/enums/Status.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="32" column="5" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="32" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/enums/Sex.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="112">
+              <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -152,6 +232,7 @@
         <option value="Vue Single File Component" />
         <option value="spring-beans.schema" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -162,6 +243,7 @@
       <find>characterset</find>
       <find>getInputStream</find>
       <find>@Data</find>
+      <find>com.ansimpleasy.agave.ans</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -174,20 +256,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/service/impl/PermissionServiceImpl.java" />
-        <option value="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/mapper/temp/RolePermissionMapper.xml" />
-        <option value="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/mapper/temp/UserPermissionMapper.xml" />
-        <option value="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/mapper/temp/UserRoleMapper.xml" />
-        <option value="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/mapper/role/RoleMapper.xml" />
-        <option value="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/mapper/permission/PermissionMapper.xml" />
-        <option value="$PROJECT_DIR$/ans/src/main/resources/config/dev/application.yml" />
-        <option value="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/common/CredentialsMatcher.java" />
-        <option value="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/service/IUserService.java" />
-        <option value="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/AnsApplication.java" />
-        <option value="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/exception/AnsExceptionHandler.java" />
-        <option value="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/exception/AnsException.java" />
-        <option value="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/ans-ui/src/main.js" />
         <option value="$PROJECT_DIR$/ans-ui/src/config/defaultSettings.js" />
         <option value="$PROJECT_DIR$/ans-ui/src/api/user/index.js" />
@@ -197,7 +265,6 @@
         <option value="$PROJECT_DIR$/ans-ui/src/components/layout/Layout.vue" />
         <option value="$PROJECT_DIR$/ans-ui/vue.config.js" />
         <option value="$PROJECT_DIR$/ans/src/main/resources/banner.txt" />
-        <option value="$PROJECT_DIR$/ans/pom.xml" />
         <option value="$PROJECT_DIR$/ans-ui/src/router.js" />
         <option value="$PROJECT_DIR$/ans-ui/src/views/platform/doc/img.vue" />
         <option value="$PROJECT_DIR$/ans-ui/src/api/index.js" />
@@ -225,6 +292,21 @@
         <option value="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/enums/Sex.java" />
         <option value="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/entity/User.java" />
         <option value="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/spr/MyProtocolResolver.java" />
+        <option value="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/enums/Status.java" />
+        <option value="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/config/SwaggerConfiguration.java" />
+        <option value="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/config/MybatisplusConfiguration.java" />
+        <option value="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/generator/MpGenerator.java" />
+        <option value="$PROJECT_DIR$/ans/src/main/resources/config/dev/application.yml" />
+        <option value="$PROJECT_DIR$/ans/pom.xml" />
+        <option value="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/entity/User.java" />
+        <option value="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/mapper/user/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/AnsApplication.java" />
+        <option value="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/aop/DataSourceAspect.java" />
+        <option value="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/annotation/DataSource.java" />
+        <option value="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/enums/DataSourceEnum.java" />
+        <option value="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/enums/Status.java" />
+        <option value="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/enums/AnsIEnum.java" />
+        <option value="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/enums/Sex.java" />
       </list>
     </option>
   </component>
@@ -252,11 +334,12 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="servlet" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="ans" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="servlets" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="ans" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
       <select />
@@ -292,11 +375,6 @@
             <path>
               <item name="agave" type="b2602c69:ProjectViewProjectNode" />
               <item name="agave" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="agave" type="b2602c69:ProjectViewProjectNode" />
-              <item name="agave" type="462c0819:PsiDirectoryNode" />
               <item name="ans" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -328,6 +406,36 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ans" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="agave" type="b2602c69:ProjectViewProjectNode" />
+              <item name="agave" type="462c0819:PsiDirectoryNode" />
+              <item name="ans" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ans" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="agave" type="b2602c69:ProjectViewProjectNode" />
+              <item name="agave" type="462c0819:PsiDirectoryNode" />
+              <item name="ans" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ans" type="462c0819:PsiDirectoryNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="agave" type="b2602c69:ProjectViewProjectNode" />
+              <item name="agave" type="462c0819:PsiDirectoryNode" />
+              <item name="ans" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ans" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="agave" type="b2602c69:ProjectViewProjectNode" />
@@ -368,28 +476,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ans" type="462c0819:PsiDirectoryNode" />
-              <item name="generator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="agave" type="b2602c69:ProjectViewProjectNode" />
-              <item name="agave" type="462c0819:PsiDirectoryNode" />
-              <item name="ans" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ans" type="462c0819:PsiDirectoryNode" />
               <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="agave" type="b2602c69:ProjectViewProjectNode" />
-              <item name="agave" type="462c0819:PsiDirectoryNode" />
-              <item name="ans" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ans" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-              <item name="permission" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="agave" type="b2602c69:ProjectViewProjectNode" />
@@ -429,9 +516,7 @@
               <item name="ans" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ans" type="462c0819:PsiDirectoryNode" />
-              <item name="spr" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="agave" type="b2602c69:ProjectViewProjectNode" />
@@ -440,6 +525,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="dev" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="agave" type="b2602c69:ProjectViewProjectNode" />
@@ -455,15 +541,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="agave" type="b2602c69:ProjectViewProjectNode" />
-              <item name="agave" type="462c0819:PsiDirectoryNode" />
-              <item name="ans" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ans" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="agave" type="b2602c69:ProjectViewProjectNode" />
@@ -475,6 +552,44 @@
               <item name="agave" type="462c0819:PsiDirectoryNode" />
               <item name="web-past-life" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="agave" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="agave" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.baomidou:mybatis-plus-core:3.0-RC1" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="agave" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.baomidou:mybatis-plus-core:3.0-RC1" type="70bed36:NamedLibraryElementNode" />
+              <item name="mybatis-plus-core-3.0-RC1.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="agave" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.baomidou:mybatis-plus-core:3.0-RC1" type="70bed36:NamedLibraryElementNode" />
+              <item name="mybatis-plus-core-3.0-RC1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="agave" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.baomidou:mybatis-plus-core:3.0-RC1" type="70bed36:NamedLibraryElementNode" />
+              <item name="mybatis-plus-core-3.0-RC1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="enums" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="agave" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.baomidou:mybatis-plus-core:3.0-RC1" type="70bed36:NamedLibraryElementNode" />
+              <item name="mybatis-plus-core-3.0-RC1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -490,7 +605,7 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574214015706" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574220250302" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="js-jscs-nodeInterpreter" value="E:\ansimpleasy\nodejs\node.exe" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -531,7 +646,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MyTest.test5">
+  <component name="RunManager" selected="Spring Boot.AnsApplication">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -677,78 +792,6 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method v="2" />
     </configuration>
-    <configuration name="MyTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ans" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ansimpleasy.agave.ans.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ansimpleasy.agave.ans" />
-      <option name="MAIN_CLASS_NAME" value="com.ansimpleasy.agave.ans.MyTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ans" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ansimpleasy.agave.ans.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ansimpleasy.agave.ans" />
-      <option name="MAIN_CLASS_NAME" value="com.ansimpleasy.agave.ans.MyTest" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyTest.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ans" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ansimpleasy.agave.ans.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ansimpleasy.agave.ans" />
-      <option name="MAIN_CLASS_NAME" value="com.ansimpleasy.agave.ans.MyTest" />
-      <option name="METHOD_NAME" value="test4" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyTest.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ans" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ansimpleasy.agave.ans.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ansimpleasy.agave.ans" />
-      <option name="MAIN_CLASS_NAME" value="com.ansimpleasy.agave.ans.MyTest" />
-      <option name="METHOD_NAME" value="test5" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
@@ -760,6 +803,14 @@
     <configuration name="AnsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ans" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ansimpleasy.agave.ans.AnsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ans" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ansimpleasy.ans.AnsApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -856,21 +907,9 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.MyTest.test1" />
-      <item itemvalue="JUnit.MyTest.test2" />
-      <item itemvalue="JUnit.MyTest.test4" />
-      <item itemvalue="JUnit.MyTest.test5" />
       <item itemvalue="Spring Boot.AnsApplication" />
       <item itemvalue="Tomcat Server.MyServlet" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.MyTest.test5" />
-        <item itemvalue="JUnit.MyTest.test2" />
-        <item itemvalue="JUnit.MyTest.test4" />
-        <item itemvalue="JUnit.MyTest.test1" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -899,7 +938,7 @@
       <workItem from="1573779662191" duration="625000" />
       <workItem from="1574147082433" duration="6153000" />
       <workItem from="1574153614440" duration="194000" />
-      <workItem from="1574213137609" duration="878000" />
+      <workItem from="1574213137609" duration="5867000" />
     </task>
     <task id="LOCAL-00001" summary="#Add:jwt依赖">
       <created>1566184582395</created>
@@ -1013,7 +1052,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574213783285</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="11">
+      <created>1574214093588</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1574214093588</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1049,13 +1095,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64756000" />
+    <option name="totallyTimeSpent" value="69745000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="0" width="1938" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2657754" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2657754" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="UI Designer" order="3" />
@@ -1067,14 +1113,14 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32922733" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.37961927" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.44680852" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.33482644" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.6662934" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49893048" weight="0.20156775" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50106955" side_tool="true" weight="0.28219485" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.42553192" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.18365061" />
       <window_info anchor="bottom" id="Spring" order="11" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Gradle View" order="13" />
@@ -1180,55 +1226,14 @@
     <MESSAGE value="#Add:Spring资源文件读取" />
     <MESSAGE value="#Del:@Data注解" />
     <MESSAGE value="#Add:注释" />
-    <option name="LAST_COMMIT_MESSAGE" value="#Add:注释" />
+    <MESSAGE value="11" />
+    <option name="LAST_COMMIT_MESSAGE" value="11" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/chapter01/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/chapter01/servlets/servlet/src/main/webapp/WEB-INF/web.xml" />
-    <entry file="file://$PROJECT_DIR$/chapter01/servlets/servlet/servlet.iml" />
-    <entry file="file://E:/Program Files/Apache/Maven/apache-maven-3.6.0/conf/settings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="206" column="49" lean-forward="true" selection-start-line="206" selection-start-column="49" selection-end-line="206" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-past-life/src/com/ans/servlet.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.21/tomcat-embed-core-9.0.21.jar!/javax/servlet/http/HttpServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.21/tomcat-embed-core-9.0.21-sources.jar!/javax/servlet/http/HttpServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6982">
-          <caret line="74" column="22" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-past-life/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-past-life/src/com/ans/servlet/MyServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="29" column="34" lean-forward="true" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.8.RELEASE/spring-core-5.1.8.RELEASE.jar!/org/springframework/core/io/ClassPathResource.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -1379,21 +1384,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ans/src/test/java/com/ansimpleasy/agave/ans/readConfig.xml">
+    <entry file="file://$PROJECT_DIR$/ans/src/test/java/com/ansimpleasy/ans/readConfig.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/readConfig.xml">
+    <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/readConfig.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ans/src/test/java/com/ansimpleasy/agave/ans/MyTest.java">
+    <entry file="file://$PROJECT_DIR$/ans/src/test/java/com/ansimpleasy/ans/MyTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="990">
           <caret line="45" column="58" selection-start-line="45" selection-start-column="58" selection-end-line="45" selection-end-column="58" />
@@ -1698,7 +1703,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ans/src/test/java/com/ansimpleasy/agave/ans/AnsApplicationTests.java">
+    <entry file="file://$PROJECT_DIR$/ans/src/test/java/com/ansimpleasy/ans/AnsApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
@@ -1712,14 +1717,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/entity/base/BaseEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/entity/Permission.java">
+    <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/entity/Permission.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
@@ -1735,7 +1733,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/entity/Role.java">
+    <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/entity/Role.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
@@ -1751,7 +1749,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/entity/RolePermission.java">
+    <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/entity/RolePermission.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
@@ -1767,7 +1765,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/entity/UserRole.java">
+    <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/entity/UserRole.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
@@ -1784,21 +1782,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/common/CredentialsMatcher.java">
+    <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/common/CredentialsMatcher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="307">
           <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/enums/DataSourceEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/entity/UserPermission.java">
+    <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/entity/UserPermission.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
@@ -1811,75 +1802,6 @@
             <element signature="e#551#552#0" expanded="true" />
             <element signature="e#587#588#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/entity/base/StatefulBaseEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-          <folding>
-            <element signature="e#354#355#0" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
-            <element signature="e#427#428#0" expanded="true" />
-            <element signature="e#463#464#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/enums/Status.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="32" column="5" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="32" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/enums/Sex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="30" column="25" lean-forward="true" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
-          <folding>
-            <element signature="e#470#471#0" expanded="true" />
-            <element signature="e#497#498#0" expanded="true" />
-            <element signature="e#537#538#0" expanded="true" />
-            <element signature="e#569#570#0" expanded="true" />
-            <element signature="e#604#605#0" expanded="true" />
-            <element signature="e#635#636#0" expanded="true" />
-            <element signature="e#683#684#0" expanded="true" />
-            <element signature="e#723#724#0" expanded="true" />
-            <element signature="e#855#856#0" expanded="true" />
-            <element signature="e#881#882#0" expanded="true" />
-            <element signature="e#916#917#0" expanded="true" />
-            <element signature="e#946#947#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/mapper/user/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="53" lean-forward="true" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/mapper/user/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -1897,13 +1819,167 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/spr/MyProtocolResolver.java">
+    <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/spr/MyProtocolResolver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        <state relative-caret-position="264">
+          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.0-RC1/mybatis-plus-core-3.0-RC1-sources.jar!/com/baomidou/mybatisplus/core/mapper/BaseMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="87" column="17" selection-start-line="87" selection-start-column="17" selection-end-line="87" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ans/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1869">
+          <caret line="128" column="45" selection-start-line="128" selection-start-column="45" selection-end-line="128" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ans/src/main/resources/config/dev/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/AnsApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="31" column="41" lean-forward="true" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/aop/DataSourceAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="26" column="51" lean-forward="true" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="42" column="62" selection-start-line="42" selection-start-column="62" selection-end-line="42" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/annotation/DataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/entity/base/BaseEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/mapper/user/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/mapper/user/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="106" selection-start-line="11" selection-start-column="106" selection-end-line="11" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/entity/base/StatefulBaseEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="13" column="15" lean-forward="true" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+          <folding>
+            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.0-RC1/mybatis-plus-core-3.0-RC1-sources.jar!/com/baomidou/mybatisplus/core/enums/IEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/enums/AnsIEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/enums/Status.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="46" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="46" />
+          <folding>
+            <element signature="e#625#626#0" expanded="true" />
+            <element signature="e#652#653#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/enums/Sex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#487#488#0" expanded="true" />
+            <element signature="e#514#515#0" expanded="true" />
+            <element signature="e#545#546#0" expanded="true" />
+            <element signature="e#572#573#0" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
+            <element signature="e#642#643#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/ans/enums/DataSourceEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
         </state>
       </provider>
     </entry>
