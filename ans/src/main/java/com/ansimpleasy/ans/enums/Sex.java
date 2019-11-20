@@ -1,7 +1,5 @@
 package com.ansimpleasy.ans.enums;
 
-import com.fasterxml.jackson.annotation.JsonFormat;
-
 /**
  * @author LiuCan
  * @date 2019/11/20 9:31
