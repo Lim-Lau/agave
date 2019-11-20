@@ -11,13 +11,13 @@ import com.baomidou.mybatisplus.annotation.TableField;
 public class StatefulBaseEntity extends BaseEntity {
 
     @TableField("status")
-    private String status = Status.VALID.name();
+    private Status status = Status.VALID;
 
-    public String getStatus() {
+    public Status getStatus() {
         return status;
     }
 
-    public void setStatus(String status) {
+    public void setStatus(Status status) {
         this.status = status;
     }
 }

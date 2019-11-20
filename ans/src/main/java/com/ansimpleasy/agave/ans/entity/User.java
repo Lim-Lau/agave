@@ -1,6 +1,7 @@
 package com.ansimpleasy.agave.ans.entity;
 
 import com.ansimpleasy.agave.ans.entity.base.StatefulBaseEntity;
+import com.ansimpleasy.agave.ans.enums.Sex;
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableName;
 
@@ -18,6 +19,10 @@ public class User extends StatefulBaseEntity{
     @TableField("password")
     private String password;
 
+    @TableField("sex")
+    private Sex sex = Sex.MALE;
+
+
     public String getName() {
         return name;
     }
@@ -32,5 +37,13 @@ public class User extends StatefulBaseEntity{
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    public Sex getSex() {
+        return sex;
+    }
+
+    public void setSex(Sex sex) {
+        this.sex = sex;
     }
 }

@@ -5,6 +5,7 @@ import org.springframework.core.io.Resource;
 import org.springframework.core.io.ResourceLoader;
 
 /**
+ * 自定义协议解析器
  * @author LiuCan
  * @date 2019/11/19 16:48
  */
