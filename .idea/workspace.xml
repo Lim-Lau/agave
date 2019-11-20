@@ -6,16 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3880e195-15c3-424b-9151-7e8a8df08da2" name="Default Changelist" comment="">
+    <list default="true" id="3880e195-15c3-424b-9151-7e8a8df08da2" name="Default Changelist" comment="#Del:@Data注解">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/entity/Permission.java" beforeDir="false" afterPath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/entity/Permission.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/entity/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/entity/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/entity/RolePermission.java" beforeDir="false" afterPath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/entity/RolePermission.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/entity/UserPermission.java" beforeDir="false" afterPath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/entity/UserPermission.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/entity/UserRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/entity/UserRole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/entity/base/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/entity/base/BaseEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/entity/base/StatefulBaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/entity/base/StatefulBaseEntity.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/ans/target/" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -25,12 +17,14 @@
     <ignored path="$PROJECT_DIR$/chapter01/target/" />
     <ignored path="$PROJECT_DIR$/chapter01/servlets/target/" />
     <ignored path="$PROJECT_DIR$/chapter01/servlets/servlet/target/" />
+    <ignored path=".idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" show_ignored="true" />
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
@@ -55,119 +49,27 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ans/src/test/java/com/ansimpleasy/agave/ans/AnsApplicationTests.java">
+        <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/entity/base/StatefulBaseEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/entity/UserRole.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+            <state relative-caret-position="264">
+              <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
               <folding>
-                <element signature="e#324#325#0" expanded="true" />
-                <element signature="e#366#367#0" expanded="true" />
-                <element signature="e#402#403#0" expanded="true" />
-                <element signature="e#433#434#0" expanded="true" />
-                <element signature="e#462#463#0" expanded="true" />
-                <element signature="e#504#505#0" expanded="true" />
-                <element signature="e#540#541#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/entity/Permission.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-              <folding>
-                <element signature="e#347#348#0" expanded="true" />
-                <element signature="e#387#388#0" expanded="true" />
-                <element signature="e#419#420#0" expanded="true" />
-                <element signature="e#457#458#0" expanded="true" />
-                <element signature="e#491#492#0" expanded="true" />
-                <element signature="e#545#546#0" expanded="true" />
-                <element signature="e#591#592#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/entity/base/BaseEntity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
-              <folding>
-                <element signature="e#795#796#0" expanded="true" />
-                <element signature="e#820#821#0" expanded="true" />
-                <element signature="e#854#855#0" expanded="true" />
-                <element signature="e#882#883#0" expanded="true" />
-                <element signature="e#917#918#0" expanded="true" />
-                <element signature="e#950#951#0" expanded="true" />
-                <element signature="e#1000#1001#0" expanded="true" />
-                <element signature="e#1044#1045#0" expanded="true" />
-                <element signature="e#1079#1080#0" expanded="true" />
-                <element signature="e#1112#1113#0" expanded="true" />
-                <element signature="e#1162#1163#0" expanded="true" />
-                <element signature="e#1206#1207#0" expanded="true" />
+                <element signature="e#354#355#0" expanded="true" />
+                <element signature="e#383#384#0" expanded="true" />
+                <element signature="e#427#428#0" expanded="true" />
+                <element signature="e#463#464#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/entity/base/StatefulBaseEntity.java">
+        <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/spr/MyProtocolResolver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+            <state relative-caret-position="176">
+              <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
               <folding>
-                <element signature="e#361#362#0" expanded="true" />
-                <element signature="e#390#391#0" expanded="true" />
-                <element signature="e#434#435#0" expanded="true" />
-                <element signature="e#470#471#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/entity/Role.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
-              <folding>
-                <element signature="e#354#355#0" expanded="true" />
-                <element signature="e#408#409#0" expanded="true" />
-                <element signature="e#454#455#0" expanded="true" />
-                <element signature="e#485#486#0" expanded="true" />
-                <element signature="e#512#513#0" expanded="true" />
-                <element signature="e#552#553#0" expanded="true" />
-                <element signature="e#584#585#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/entity/RolePermission.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
-              <folding>
-                <element signature="e#348#349#0" expanded="true" />
-                <element signature="e#402#403#0" expanded="true" />
-                <element signature="e#450#451#0" expanded="true" />
-                <element signature="e#481#482#0" expanded="true" />
-                <element signature="e#510#511#0" expanded="true" />
-                <element signature="e#552#553#0" expanded="true" />
-                <element signature="e#588#589#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -176,9 +78,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/entity/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+            <state relative-caret-position="461">
+              <caret line="30" column="25" lean-forward="true" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
               <folding>
+                <element signature="e#470#471#0" expanded="true" />
                 <element signature="e#497#498#0" expanded="true" />
                 <element signature="e#537#538#0" expanded="true" />
                 <element signature="e#569#570#0" expanded="true" />
@@ -186,34 +89,56 @@
                 <element signature="e#635#636#0" expanded="true" />
                 <element signature="e#683#684#0" expanded="true" />
                 <element signature="e#723#724#0" expanded="true" />
+                <element signature="e#855#856#0" expanded="true" />
+                <element signature="e#881#882#0" expanded="true" />
+                <element signature="e#916#917#0" expanded="true" />
+                <element signature="e#946#947#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/entity/UserPermission.java">
+        <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/mapper/user/UserMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-              <folding>
-                <element signature="e#347#348#0" expanded="true" />
-                <element signature="e#401#402#0" expanded="true" />
-                <element signature="e#449#450#0" expanded="true" />
-                <element signature="e#480#481#0" expanded="true" />
-                <element signature="e#509#510#0" expanded="true" />
-                <element signature="e#551#552#0" expanded="true" />
-                <element signature="e#587#588#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="154">
+              <caret line="7" column="53" lean-forward="true" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ans/src/main/resources/config/dev/readConfig.xml">
+        <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/mapper/user/UserMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+            <state relative-caret-position="330">
+              <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/service/impl/UserServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="111">
+              <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/enums/Status.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="616">
+              <caret line="32" column="5" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="32" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/enums/Sex.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -249,7 +174,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/service/impl/RoleServiceImpl.java" />
         <option value="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/service/impl/PermissionServiceImpl.java" />
         <option value="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/mapper/temp/RolePermissionMapper.xml" />
         <option value="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/mapper/temp/UserPermissionMapper.xml" />
@@ -290,16 +214,17 @@
         <option value="$PROJECT_DIR$/ans/src/test/resources/readConfig.xml" />
         <option value="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/readConfig.xml" />
         <option value="$PROJECT_DIR$/ans/src/main/resources/config/dev/readConfig.xml" />
-        <option value="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/spr/MyProtocolResolver.java" />
         <option value="$PROJECT_DIR$/ans/src/test/java/com/ansimpleasy/agave/ans/MyTest.java" />
         <option value="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/entity/UserRole.java" />
         <option value="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/entity/Permission.java" />
         <option value="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/entity/Role.java" />
         <option value="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/entity/RolePermission.java" />
-        <option value="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/entity/User.java" />
         <option value="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/entity/UserPermission.java" />
         <option value="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/entity/base/BaseEntity.java" />
         <option value="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/entity/base/StatefulBaseEntity.java" />
+        <option value="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/enums/Sex.java" />
+        <option value="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/entity/User.java" />
+        <option value="$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/spr/MyProtocolResolver.java" />
       </list>
     </option>
   </component>
@@ -355,14 +280,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="agave" type="b2602c69:ProjectViewProjectNode" />
               <item name="agave" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="agave" type="b2602c69:ProjectViewProjectNode" />
+              <item name="agave" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="agave" type="b2602c69:ProjectViewProjectNode" />
@@ -428,6 +358,79 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ans" type="462c0819:PsiDirectoryNode" />
+              <item name="enums" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="agave" type="b2602c69:ProjectViewProjectNode" />
+              <item name="agave" type="462c0819:PsiDirectoryNode" />
+              <item name="ans" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ans" type="462c0819:PsiDirectoryNode" />
+              <item name="generator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="agave" type="b2602c69:ProjectViewProjectNode" />
+              <item name="agave" type="462c0819:PsiDirectoryNode" />
+              <item name="ans" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ans" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="agave" type="b2602c69:ProjectViewProjectNode" />
+              <item name="agave" type="462c0819:PsiDirectoryNode" />
+              <item name="ans" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ans" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="permission" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="agave" type="b2602c69:ProjectViewProjectNode" />
+              <item name="agave" type="462c0819:PsiDirectoryNode" />
+              <item name="ans" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ans" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="agave" type="b2602c69:ProjectViewProjectNode" />
+              <item name="agave" type="462c0819:PsiDirectoryNode" />
+              <item name="ans" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ans" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="agave" type="b2602c69:ProjectViewProjectNode" />
+              <item name="agave" type="462c0819:PsiDirectoryNode" />
+              <item name="ans" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ans" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="agave" type="b2602c69:ProjectViewProjectNode" />
+              <item name="agave" type="462c0819:PsiDirectoryNode" />
+              <item name="ans" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ans" type="462c0819:PsiDirectoryNode" />
               <item name="spr" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -435,6 +438,14 @@
               <item name="agave" type="462c0819:PsiDirectoryNode" />
               <item name="ans" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="agave" type="b2602c69:ProjectViewProjectNode" />
+              <item name="agave" type="462c0819:PsiDirectoryNode" />
+              <item name="ans" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -453,6 +464,17 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ans" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="agave" type="b2602c69:ProjectViewProjectNode" />
+              <item name="agave" type="462c0819:PsiDirectoryNode" />
+              <item name="web-past-life" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="agave" type="b2602c69:ProjectViewProjectNode" />
+              <item name="agave" type="462c0819:PsiDirectoryNode" />
+              <item name="web-past-life" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -468,10 +490,10 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574153545136" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574214015706" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="js-jscs-nodeInterpreter" value="E:\ansimpleasy\nodejs\node.exe" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea/workspace.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -876,7 +898,8 @@
       <workItem from="1573695912631" duration="9390000" />
       <workItem from="1573779662191" duration="625000" />
       <workItem from="1574147082433" duration="6153000" />
-      <workItem from="1574153614440" duration="143000" />
+      <workItem from="1574153614440" duration="194000" />
+      <workItem from="1574213137609" duration="878000" />
     </task>
     <task id="LOCAL-00001" summary="#Add:jwt依赖">
       <created>1566184582395</created>
@@ -976,7 +999,21 @@
       <option name="project" value="LOCAL" />
       <updated>1574153519634</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="#Del:@Data注解">
+      <created>1574153778511</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1574153778511</updated>
+    </task>
+    <task id="LOCAL-00016" summary="#Add:注释">
+      <created>1574213783285</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1574213783285</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1012,13 +1049,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63827000" />
+    <option name="totallyTimeSpent" value="64756000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="0" width="1938" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2657754" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2657754" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="UI Designer" order="3" />
@@ -1034,7 +1071,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.6662934" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49893048" weight="0.20156775" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50106955" side_tool="true" weight="0.28219485" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.42553192" />
@@ -1103,6 +1140,32 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="#Add:jwt依赖" />
     <MESSAGE value="#Fixed:Not Found xxxxMapper" />
@@ -1115,48 +1178,15 @@
     <MESSAGE value="#Add:banner图" />
     <MESSAGE value="#Add:111" />
     <MESSAGE value="#Add:Spring资源文件读取" />
-    <option name="LAST_COMMIT_MESSAGE" value="#Add:Spring资源文件读取" />
+    <MESSAGE value="#Del:@Data注解" />
+    <MESSAGE value="#Add:注释" />
+    <option name="LAST_COMMIT_MESSAGE" value="#Add:注释" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ans-ui/src/config/defaultSettings.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ans-ui/src/plugins/axios.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3212">
-          <caret line="157" selection-start-line="157" selection-end-line="157" />
-          <folding>
-            <element signature="e#15#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ans-ui/vue.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ans-ui/src/api/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-five/build.gradle" />
-    <entry file="file://$PROJECT_DIR$/chapter01/chapter01.iml" />
-    <entry file="file://$PROJECT_DIR$/chapter01/servlets/servlet/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/chapter01/servlets/servlets.iml" />
     <entry file="file://$PROJECT_DIR$/chapter01/pom.xml" />
     <entry file="file://$PROJECT_DIR$/chapter01/servlets/servlet/src/main/webapp/WEB-INF/web.xml" />
     <entry file="file://$PROJECT_DIR$/chapter01/servlets/servlet/servlet.iml" />
@@ -1186,13 +1216,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-past-life/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
@@ -1374,16 +1397,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="990">
           <caret line="45" column="58" selection-start-line="45" selection-start-column="58" selection-end-line="45" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/spr/MyProtocolResolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="31" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1685,6 +1698,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ans/src/test/java/com/ansimpleasy/agave/ans/AnsApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ans/src/main/resources/config/dev/readConfig.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -1692,73 +1712,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ans/src/test/java/com/ansimpleasy/agave/ans/AnsApplicationTests.java">
+    <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/entity/base/BaseEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="352">
+          <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/entity/UserRole.java">
+    <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/entity/Permission.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
           <folding>
-            <element signature="e#324#325#0" expanded="true" />
-            <element signature="e#366#367#0" expanded="true" />
-            <element signature="e#402#403#0" expanded="true" />
-            <element signature="e#433#434#0" expanded="true" />
-            <element signature="e#462#463#0" expanded="true" />
-            <element signature="e#504#505#0" expanded="true" />
-            <element signature="e#540#541#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/entity/UserPermission.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-          <folding>
             <element signature="e#347#348#0" expanded="true" />
-            <element signature="e#401#402#0" expanded="true" />
-            <element signature="e#449#450#0" expanded="true" />
-            <element signature="e#480#481#0" expanded="true" />
-            <element signature="e#509#510#0" expanded="true" />
-            <element signature="e#551#552#0" expanded="true" />
-            <element signature="e#587#588#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-          <folding>
-            <element signature="e#497#498#0" expanded="true" />
-            <element signature="e#537#538#0" expanded="true" />
-            <element signature="e#569#570#0" expanded="true" />
-            <element signature="e#604#605#0" expanded="true" />
-            <element signature="e#635#636#0" expanded="true" />
-            <element signature="e#683#684#0" expanded="true" />
-            <element signature="e#723#724#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/entity/RolePermission.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
-          <folding>
-            <element signature="e#348#349#0" expanded="true" />
-            <element signature="e#402#403#0" expanded="true" />
-            <element signature="e#450#451#0" expanded="true" />
-            <element signature="e#481#482#0" expanded="true" />
-            <element signature="e#510#511#0" expanded="true" />
-            <element signature="e#552#553#0" expanded="true" />
-            <element signature="e#588#589#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#545#546#0" expanded="true" />
+            <element signature="e#591#592#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1779,52 +1751,158 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/entity/Permission.java">
+    <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/entity/RolePermission.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
-          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
           <folding>
-            <element signature="e#347#348#0" expanded="true" />
-            <element signature="e#387#388#0" expanded="true" />
-            <element signature="e#419#420#0" expanded="true" />
-            <element signature="e#457#458#0" expanded="true" />
-            <element signature="e#491#492#0" expanded="true" />
-            <element signature="e#545#546#0" expanded="true" />
-            <element signature="e#591#592#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#552#553#0" expanded="true" />
+            <element signature="e#588#589#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/entity/base/BaseEntity.java">
+    <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/entity/UserRole.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="242">
+          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
           <folding>
-            <element signature="e#795#796#0" expanded="true" />
-            <element signature="e#820#821#0" expanded="true" />
-            <element signature="e#854#855#0" expanded="true" />
-            <element signature="e#882#883#0" expanded="true" />
-            <element signature="e#917#918#0" expanded="true" />
-            <element signature="e#950#951#0" expanded="true" />
-            <element signature="e#1000#1001#0" expanded="true" />
-            <element signature="e#1044#1045#0" expanded="true" />
-            <element signature="e#1079#1080#0" expanded="true" />
-            <element signature="e#1112#1113#0" expanded="true" />
-            <element signature="e#1162#1163#0" expanded="true" />
-            <element signature="e#1206#1207#0" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+            <element signature="e#540#541#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/common/CredentialsMatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/enums/DataSourceEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/entity/UserPermission.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+          <folding>
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#480#481#0" expanded="true" />
+            <element signature="e#509#510#0" expanded="true" />
+            <element signature="e#551#552#0" expanded="true" />
+            <element signature="e#587#588#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/entity/base/StatefulBaseEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        <state relative-caret-position="264">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
           <folding>
-            <element signature="e#361#362#0" expanded="true" />
-            <element signature="e#390#391#0" expanded="true" />
-            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/enums/Status.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="32" column="5" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="32" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/enums/Sex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="30" column="25" lean-forward="true" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+          <folding>
             <element signature="e#470#471#0" expanded="true" />
+            <element signature="e#497#498#0" expanded="true" />
+            <element signature="e#537#538#0" expanded="true" />
+            <element signature="e#569#570#0" expanded="true" />
+            <element signature="e#604#605#0" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
+            <element signature="e#723#724#0" expanded="true" />
+            <element signature="e#855#856#0" expanded="true" />
+            <element signature="e#881#882#0" expanded="true" />
+            <element signature="e#916#917#0" expanded="true" />
+            <element signature="e#946#947#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/mapper/user/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="53" lean-forward="true" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/mapper/user/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-past-life/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ans/src/main/java/com/ansimpleasy/agave/ans/spr/MyProtocolResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
