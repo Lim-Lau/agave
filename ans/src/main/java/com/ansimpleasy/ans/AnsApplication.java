@@ -27,10 +27,10 @@ public class AnsApplication {
             @Override
             public void run(String... args) throws Exception {
                 // 创建超级管理员
-                User account = userService.getByName("admin");
+                User account = userService.getByName("ANS");
                 if (Lang.isEmpty(account)) {
                     account = new User();
-                    account.setName("admin");
+                    account.setName("ANS");
                     account.setStatus(Status.VALID);
                     account.setSex(Sex.MALE);
                     account.setPassword(CredentialsMatcher.password(String.valueOf(account.getName()), "G00dl^ck"));

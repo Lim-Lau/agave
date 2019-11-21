@@ -21,6 +21,15 @@ spring:
         initialSize: 5
         minIdle: 5
         maxActive: 20
+  # 日志配置
+logging:
+  #  file: ${user.home}/log/${spring.application.name}.log
+  level:
+    org.nutz: debug
+    com.ansimpleasy.ans: debug
+    springfox: off
+    io.swagger: off
+
 mybatis-plus:
   # \u5982\u679C\u662F\u653E\u5728src/main/java\u76EE\u5F55\u4E0B
   # classpath:/com/ansimpleasy/agave/ans/mapper/xml/*Mapper.xml
@@ -51,3 +60,4 @@ mybatis-plus:
     #\u914D\u7F6EJdbcTypeForNull, oracle\u6570\u636E\u5E93\u5FC5\u987B\u914D\u7F6E
     jdbc-type-for-null: 'null'
   type-enums-package: com.ansimpleasy.ans.enums
+

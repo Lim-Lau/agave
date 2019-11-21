@@ -16,7 +16,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
 public interface IUserService extends IService<User> {
     User getByName(String name);
 
-    User saveUser(User user);
+    AuthUser saveUser(User user);
 
     AuthUser login(AuthServiceImpl.LoginDto user);
 

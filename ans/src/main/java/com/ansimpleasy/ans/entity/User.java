@@ -19,7 +19,7 @@ public class User extends StatefulBaseEntity {
     private String password;
 
     @TableField("sex")
-    private Sex sex = Sex.MALE;
+    private Sex sex;
 
 
     public String getName() {

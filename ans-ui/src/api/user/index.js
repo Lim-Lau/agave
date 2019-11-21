@@ -16,12 +16,21 @@ export default {
         http.post("/user/login", user).then(success).catch(error)
     },
     /**
+     *
+     * @param {Object} user 注册用户信息
+     * @param {Function} success 成功回调
+     * @param {Function} error 失败回调
+     */
+    register(user, success = defaultSuccess, error = defaultError) {
+        http.post("/user/register", user).then(success).catch(error)
+    },
+    /**
      * 检查token是否有效
      * @param {Function} success 成功回调
      * @param {Function} error 失败回调
      */
     check(success = defaultSuccess, error = defaultError) {
-        http.get("/test").then(success).catch(error)
+        http.get("/user/check").then(success).catch(error)
     },
     /**
      * 用户列表

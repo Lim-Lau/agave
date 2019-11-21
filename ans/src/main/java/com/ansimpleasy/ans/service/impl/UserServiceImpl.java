@@ -31,11 +31,11 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements IU
     }
 
     @Override
-    public User saveUser(User user) {
+    public AuthUser saveUser(User user) {
         user.setPassword(CredentialsMatcher.password(
                 String.valueOf(user.getName()), user.getPassword()));
         save(user);
-        return user;
+        return new AuthUser(user.getName(), user.getPassword()).token(JwtUtil.sign(user.getName(), "ans", Boolean.FALSE));
     }
 
     @Override

@@ -1,8 +1,8 @@
 package com.ansimpleasy.ans.controller;
 
 import com.ansimpleasy.ans.entity.User;
+import com.ansimpleasy.ans.exception.AnsException;
 import com.ansimpleasy.ans.service.acl.AuthService;
-import com.chinare.axe.auth.AuthException;
 import org.nutz.json.Json;
 import org.nutz.lang.Lang;
 import org.nutz.lang.Strings;
@@ -48,11 +48,13 @@ public class BaseController {
         return request;
     }
 
+
+
     public User user() {
         logger.infof("authUser的请求:%s,%s", request.getHeader("token"), Json.toJson(request.getParameterMap()));
         User user = authService.info();
         if (user == null) {
-            throw new AuthException();
+            throw Lang.makeThrow(AnsException.class, "用户不存在");
         }
         return user;
     }

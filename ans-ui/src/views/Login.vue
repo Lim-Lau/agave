@@ -22,10 +22,13 @@
                               suffix-icon="fa fa-lock">
                     </el-input>
                 </el-form-item>
-                <el-form-item class="remember" prop="rememberMe">
-                    <el-checkbox v-model="user.rememberMe">
+                <el-form-item  prop="rememberMe">
+
+                    <el-checkbox class="remember" v-model="user.rememberMe">
                         记住我
                     </el-checkbox>
+
+                    <el-button type="text" @click="toRegister">注册</el-button>
                 </el-form-item>
                 <div class="login-btn">
                     <el-button
@@ -53,9 +56,31 @@
                     rememberMe: true
                 },
                 rules: {
-                    name: [{required: true, message: "请输入手机号码", trigger: "blur"}],
+                    name: [{required: true, message: "请输入用户名", trigger: "blur"}],
                     password: [{required: true, message: "请输入密码", trigger: "blur"}]
                 }
+            }
+        },
+        computed: {
+            ...mapState({
+                token: state => state.token.token || "",
+                // cachedTime: state => state.token.time || 0
+            })
+        },
+        created() {
+            this.user.name = this.$cookie.get("userName");
+        },
+        mounted() {
+            console.log(this.token);
+            if (this.token) {
+                this.$api.user.check(
+                    (res) => {
+                        console.log("res:", res);
+                        this.$router.push("/img");
+                    },
+                    () => {
+                    }
+                );
             }
         },
         methods: {
@@ -68,6 +93,11 @@
                 "cacheCodebooks",
                 "captchaCutDown"
             ]),
+            toRegister() {
+                this.$cookie.remove("userName");
+                this.$router.push({path: "/register"});
+            },
+
             submitForm(formName) {
                 this.$refs[formName].validate(valid => {
                     if (valid) {
@@ -76,7 +106,10 @@
                         } else {
                             this.$cookie.remove("userName");
                         }
-                        this.$api.user.login(this.user, () => {
+                        this.$api.user.login(this.user, data => {
+                            let user = data.user;
+                            this.login(user.token);
+                            this.save(user);
                             this.$router.push({path: "/img"});
                         });
                     } else {
@@ -143,7 +176,14 @@
         height: 36px;
     }
     .remember {
-
+        left: 10%;
+    }
+    .el-button--text {
+        border-color: transparent;
+        color: #409EFF;
+        background: transparent;
+        padding-left: 203px;
+        padding-right: 0;
     }
 
 </style>

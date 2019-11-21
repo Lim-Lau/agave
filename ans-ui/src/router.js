@@ -17,8 +17,8 @@ export default new Router({
             }
         },
         {
-            path: "/",
-            name: "Register",
+            path: "/register",
+            name: "register",
             component: () => import("./views/Register.vue"),
             hidden: true,
             meta: {

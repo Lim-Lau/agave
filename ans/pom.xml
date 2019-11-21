@@ -35,10 +35,26 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-starter-logging</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-starter-logging</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-log4j2</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -106,11 +122,11 @@
             <version>${swagger.version}</version>
         </dependency>
         <!--swagger end-->
-        <dependency>
-            <groupId>cn.com.chinarecrm</groupId>
-            <artifactId>axe-chinare-crm</artifactId>
-            <version>${axe.version}</version>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>cn.com.chinarecrm</groupId>-->
+            <!--<artifactId>axe-chinare-crm</artifactId>-->
+            <!--<version>${axe.version}</version>-->
+        <!--</dependency>-->
         <!--mybatis-plus  集成  -->
 
         <!-- mybatis-plus begin -->
