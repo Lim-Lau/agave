@@ -45,7 +45,7 @@ public class MpGenerator {
         dataSourceConfig.setDbType(DbType.MYSQL)
                 .setUrl(dbUrl)
                 .setUsername("root")
-                .setPassword("Pwd123")
+                .setPassword("G00dl^ck")
                 .setDriverName("com.mysql.cj.jdbc.Driver");
         StrategyConfig strategyConfig = new StrategyConfig();
         strategyConfig
@@ -53,11 +53,22 @@ public class MpGenerator {
                 .setEntityLombokModel(false)
                 .setDbColumnUnderline(true)
                 .setNaming(NamingStrategy.underline_to_camel)
-                .setInclude(tableNames);//修改替换成你需要的表名，多个表名传数组
+                .setColumnNaming(NamingStrategy.underline_to_camel)
+                .setSuperEntityClass("com.ansimpleasy.ans.entity.base.BaseEntity")
+                // 写于父类中的公共字段
+                .setSuperEntityColumns("id","create_time","update_time")
+                //公共父类Controller
+                .setSuperControllerClass("com.ansimpleasy.ans.controller.BaseController")
+                .setRestControllerStyle(true)
+                //修改替换成你需要的表名，多个表名传数组
+                .setInclude(tableNames)
+                .setTablePrefix("t_");
         globalConfig.setActiveRecord(false)
+                .setSwagger2(true)
                 .setAuthor("liucan")
                 .setOutputDir("d:\\TestCodeGen")
                 .setFileOverride(true);
+
         if (!serviceNameStartWithImpl) {
             globalConfig.setServiceName("%sService");
         }
@@ -87,6 +98,6 @@ public class MpGenerator {
     public static void main(String[] args) {
         MpGenerator mpGenerator = new MpGenerator();
         String packageName = "com.ansimpleasy.ans";
-        mpGenerator.generateByTables(packageName,"user","user_role","role","role_permission","user_permission","permission");
+        mpGenerator.generateByTables(packageName,"t_file");
     }
 }

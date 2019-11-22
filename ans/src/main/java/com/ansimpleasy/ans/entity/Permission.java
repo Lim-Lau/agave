@@ -1,6 +1,7 @@
 package com.ansimpleasy.ans.entity;
 
 import com.ansimpleasy.ans.entity.base.StatefulBaseEntity;
+import com.baomidou.mybatisplus.annotation.TableName;
 
 /**
  * <p>
@@ -10,7 +11,7 @@ import com.ansimpleasy.ans.entity.base.StatefulBaseEntity;
  * @author liucan
  * @since 2019-08-11
  */
-
+@TableName("t_permission")
 public class Permission extends StatefulBaseEntity {
 
     private String name;

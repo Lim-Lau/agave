@@ -9,7 +9,7 @@ import com.baomidou.mybatisplus.annotation.TableName;
  * @author LiuCan
  * @date 2019/8/7 8:43
  */
-@TableName("user")
+@TableName("t_user")
 public class User extends StatefulBaseEntity {
 
     @TableField("name")
