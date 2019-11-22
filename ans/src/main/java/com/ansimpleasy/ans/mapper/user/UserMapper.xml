@@ -10,7 +10,7 @@
 	<!--</sql>-->
 
     <select id="fetchUserByName" parameterType="java.lang.String" resultType="com.ansimpleasy.ans.entity.User">
-        SELECT  *  FROM  user WHERE  name  = #{name};
+        SELECT  *  FROM  t_user WHERE  name  = #{name};
     </select>
 
 </mapper>

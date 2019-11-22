@@ -4,7 +4,7 @@
       <el-aside :width="tabWidth+'px'">
         <div class="isClossTab">
           <img
-            src="@/assets/login-logo.png"
+            src="@/assets/timg.jpg"
             height="58"
           >
         </div>

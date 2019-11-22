@@ -28,21 +28,20 @@ export default new Router({
         },
         {
             path: "/",
-            name: "img",
-            hidden: true,
+            name: "home",
             meta: {
-                icon: "fa fa-user-secret"
+                icon: "el-icon-menu"
             },
             component: Layout,
             children: [{
-                path: "/img",
-                name: "img",
+                path: "/ans",
+                name: "ans",
                 meta: {
-                    name: "图片",
-                    icon: "fa fa-user-secret"
+                    name: "主页",
+                    icon: "el-icon-menu"
                     // pn: installPermissions.permissions.member.management
                 },
-                component: () => import("./views/platform/doc/img")
+                component: () => import("./views/platform/home/ans")
             }]
         }
     ]

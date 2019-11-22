@@ -78,7 +78,7 @@
                             let user = data.user;
                             this.login(user.token);
                             this.save(user);
-                            this.$router.push({path: "/img"});
+                            this.$router.push({path: "/ans"});
                         });
                     } else {
                         return false;
