@@ -43,6 +43,96 @@ export default new Router({
                 },
                 component: () => import("./views/platform/home/ans")
             }]
-        }
+        },
+        {
+            path: "/",
+            name: "home",
+            meta: {
+                icon: "el-icon-menu"
+            },
+            component: Layout,
+            children: [{
+                path: "/blog",
+                name: "blog",
+                meta: {
+                    name: "日志",
+                    icon: "el-icon-reading"
+                    // pn: installPermissions.permissions.member.management
+                },
+                component: () => import("./views/platform/blog")
+            }]
+        },
+        {
+            path: "/",
+            name: "home",
+            meta: {
+                icon: "el-icon-menu"
+            },
+            component: Layout,
+            children: [{
+                path: "/verses",
+                name: "verses",
+                meta: {
+                    name: "说说",
+                    icon: "el-icon-chat-dot-square"
+                    // pn: installPermissions.permissions.member.management
+                },
+                component: () => import("./views/platform/verses")
+            }]
+        },
+        {
+            path: "/",
+            name: "home",
+            meta: {
+                icon: "el-icon-menu"
+            },
+            component: Layout,
+            children: [{
+                path: "/album",
+                name: "album",
+                meta: {
+                    name: "相册",
+                    icon: "el-icon-picture-outline"
+                    // pn: installPermissions.permissions.member.management
+                },
+                component: () => import("./views/platform/album")
+            }]
+        },
+        {
+            path: "/",
+            name: "home",
+            meta: {
+                icon: "el-icon-menu"
+            },
+            component: Layout,
+            children: [{
+                path: "/note",
+                name: "note",
+                meta: {
+                    name: "留言板",
+                    icon: "el-icon-notebook-2"
+                    // pn: installPermissions.permissions.member.management
+                },
+                component: () => import("./views/platform/note")
+            }]
+        },
+        {
+            path: "/",
+            name: "home",
+            meta: {
+                icon: "el-icon-menu"
+            },
+            component: Layout,
+            children: [{
+                path: "/me",
+                name: "me",
+                meta: {
+                    name: "个人中心",
+                    icon: "el-icon-s-custom"
+                    // pn: installPermissions.permissions.member.management
+                },
+                component: () => import("./views/platform/me")
+            }]
+        },
     ]
 })

@@ -3,28 +3,28 @@
         <div style="display: flex; margin-top: 50px; margin-left: 100px; height: 100px;">
             <div>
                 <transition name="el-zoom-in-center">
-                    <div v-show="show" class="transition-box" @click="toBlog" >博客</div>
+                    <div v-show="show" class="transition-box" @click="toBlog" ><b style="font-size: 40px">日志</b></div>
                 </transition>
 
                 <transition name="el-zoom-in-top">
-                    <div v-show="show" class="transition-box" @click="toBlog" style="background-color: cadetblue">说说</div>
+                    <div v-show="show" class="transition-box" @click="toVerses" style="background-color: cadetblue"><b style="font-size: 40px">说说</b></div>
                 </transition>
             </div>
 
             <div>
                 <transition name="el-zoom-in-bottom">
-                    <div v-show="show" class="transition-box" @click="toBlog" style="background-color: bisque">相册</div>
+                    <div v-show="show" class="transition-box" @click="toAlbum" style="background-color: bisque"><b style="font-size: 40px">相册</b></div>
                 </transition>
                 <transition name="el-zoom-in-bottom">
-                    <div v-show="show" class="transition-box" @click="toBlog" style="background-color: blueviolet">快递000</div>
+                    <div v-show="show" class="transition-box" @click="toNote" style="background-color: blueviolet"><b style="font-size: 40px">留言板</b></div>
                 </transition>
             </div>
             <div>
                 <transition name="el-zoom-in-bottom">
-                    <div v-show="show" class="transition-box" @click="toBlog" style="background-color: brown">个人中心</div>
+                    <div v-show="show" class="transition-box" @click="toMe" style="background-color: brown"><b style="font-size: 40px">个人中心</b></div>
                 </transition>
                 <transition name="el-zoom-in-bottom">
-                    <div v-show="show" class="transition-box" @click="toAbout" style="background-color: chocolate">关于ANS</div>
+                    <div v-show="show" class="transition-box" @click="toAbout" style="background-color: chocolate"><b style="font-size: 40px">关于ANS</b></div>
                 </transition>
             </div>
 
@@ -42,14 +42,30 @@
         },
         methods: {
             toBlog() {
-                //TODO
-                console.log("我准备去博客列表页面了!");
                 this.changeShow();
+                this.$router.push("/blog");
+            },
+            toVerses() {
+                this.changeShow();
+                this.$router.push("/verses");
+            },
+            toAlbum() {
+                this.changeShow();
+                this.$router.push("/album");
+            },
+            toMe() {
+                this.changeShow();
+                this.$router.push("/me");
+            },
+            toNote() {
+                this.changeShow();
+                this.$router.push("/note");
             },
             toAbout() {
                 //TODO
                 console.log("我准备去关于页面了!");
                 this.changeShow();
+                this.$router.push("/");
             },
             changeShow() {
                 this.show = !this.show;

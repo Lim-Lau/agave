@@ -157,6 +157,12 @@
             <artifactId>fastjson</artifactId>
             <version>1.2.58</version>
         </dependency>
+        <!-- 七牛存储的SDK -->
+        <dependency>
+            <groupId>com.qiniu</groupId>
+            <artifactId>qiniu-java-sdk</artifactId>
+            <version>7.2.2</version>
+        </dependency>
     </dependencies>
     <!--Maven多环境配置-->
     <profiles>

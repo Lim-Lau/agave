@@ -61,3 +61,8 @@ mybatis-plus:
     jdbc-type-for-null: 'null'
   type-enums-package: com.ansimpleasy.ans.enums
 
+qiniu:
+  accesskey: yQJ2t8sT7FUmoWO5ME74RTdvqiXlTJYEoAa_BbE7
+  secretkey: dJo3Omg4Jju6bR6-ZrT-ss71dSs5l_PqfS2g_4YI
+  bucket: simpleasy9
+  cdns: q2ftvd1yu.bkt.clouddn.com
