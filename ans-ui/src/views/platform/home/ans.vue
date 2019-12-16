@@ -62,8 +62,6 @@
                 this.$router.push("/note");
             },
             toAbout() {
-                //TODO
-                console.log("我准备去关于页面了!");
                 this.changeShow();
                 this.$router.push("/");
             },

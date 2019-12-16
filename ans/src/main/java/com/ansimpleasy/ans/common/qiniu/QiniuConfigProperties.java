@@ -17,6 +17,10 @@ public class QiniuConfigProperties {
 
     String cdns;
 
+    String key;
+
+    String fops;
+
     public String getAccesskey() {
         return accesskey;
     }
@@ -49,4 +53,19 @@ public class QiniuConfigProperties {
         this.cdns = cdns;
     }
 
+    public String getKey() {
+        return key;
+    }
+
+    public void setKey(String key) {
+        this.key = key;
+    }
+
+    public String getFops() {
+        return fops;
+    }
+
+    public void setFops(String fops) {
+        this.fops = fops;
+    }
 }

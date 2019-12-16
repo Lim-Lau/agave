@@ -66,3 +66,5 @@ qiniu:
   secretkey: dJo3Omg4Jju6bR6-ZrT-ss71dSs5l_PqfS2g_4YI
   bucket: simpleasy9
   cdns: q2ftvd1yu.bkt.clouddn.com
+  key: ANS
+  fops: imageView2/1/w/200/h/200/q/75|watermark/2/text/c2ltcGxlYXN5/font/5a6L5L2T/fontsize/380/fill/I0ZERTMxOQ==/dissolve/100/gravity/SouthEast/dx/10/dy/10|imageslim
