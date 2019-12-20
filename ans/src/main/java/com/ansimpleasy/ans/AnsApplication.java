@@ -1,7 +1,7 @@
 package com.ansimpleasy.ans;
 
 import com.ansimpleasy.ans.common.CredentialsMatcher;
-import com.ansimpleasy.ans.entity.User;
+import com.ansimpleasy.ans.entity.user.User;
 import com.ansimpleasy.ans.enums.Sex;
 import com.ansimpleasy.ans.enums.Status;
 import com.ansimpleasy.ans.service.impl.UserServiceImpl;

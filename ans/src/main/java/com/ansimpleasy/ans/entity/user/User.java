@@ -1,4 +1,4 @@
-package com.ansimpleasy.ans.entity;
+package com.ansimpleasy.ans.entity.user;
 
 import com.ansimpleasy.ans.entity.base.StatefulBaseEntity;
 import com.ansimpleasy.ans.enums.Sex;

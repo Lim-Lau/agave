@@ -1,4 +1,4 @@
-package com.ansimpleasy.ans.entity;
+package com.ansimpleasy.ans.entity.common;
 
 import com.ansimpleasy.ans.entity.base.BaseEntity;
 import com.baomidou.mybatisplus.annotation.TableName;
@@ -21,7 +21,7 @@ public class File extends BaseEntity implements Serializable  {
     /**
      * 关联id
      */
-    private Integer relatedId;
+    private long relatedId;
 
     /**
      * 文件key
@@ -45,11 +45,11 @@ public class File extends BaseEntity implements Serializable  {
 
 
 
-    public Integer getRelatedId() {
+    public long getRelatedId() {
         return relatedId;
     }
 
-    public void setRelatedId(Integer relatedId) {
+    public void setRelatedId(long relatedId) {
         this.relatedId = relatedId;
     }
 

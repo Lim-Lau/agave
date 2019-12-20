@@ -1,4 +1,4 @@
-package com.ansimpleasy.ans.entity;
+package com.ansimpleasy.ans.entity.user;
 
 import com.ansimpleasy.ans.entity.base.BaseEntity;
 import com.baomidou.mybatisplus.annotation.TableName;
@@ -11,19 +11,19 @@ import com.baomidou.mybatisplus.annotation.TableName;
  * @author liucan
  * @since 2019-08-11
  */
-@TableName("t_user_role")
-public class UserRole extends BaseEntity {
+@TableName("t_role_permission")
+public class RolePermission extends BaseEntity {
 
-    private long userId;
+    private long permissionId;
 
     private long roleId;
 
-    public long getUserId() {
-        return userId;
+    public long getPermissionId() {
+        return permissionId;
     }
 
-    public void setUserId(long userId) {
-        this.userId = userId;
+    public void setPermissionId(long permissionId) {
+        this.permissionId = permissionId;
     }
 
     public long getRoleId() {

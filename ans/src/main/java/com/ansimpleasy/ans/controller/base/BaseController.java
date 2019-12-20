@@ -1,8 +1,10 @@
-package com.ansimpleasy.ans.controller;
+package com.ansimpleasy.ans.controller.base;
 
-import com.ansimpleasy.ans.entity.User;
+import com.ansimpleasy.ans.entity.user.User;
 import com.ansimpleasy.ans.exception.AnsException;
 import com.ansimpleasy.ans.service.acl.AuthService;
+import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import org.nutz.json.Json;
 import org.nutz.lang.Lang;
 import org.nutz.lang.Strings;
@@ -59,4 +61,10 @@ public class BaseController {
         return user;
     }
 
+    public static  IPage packagePage(long page) {
+        IPage iPage = new Page();
+        iPage.setSize(15);
+        iPage.setCurrent(page<=0 ? 1 : page);
+        return iPage;
+    }
 }

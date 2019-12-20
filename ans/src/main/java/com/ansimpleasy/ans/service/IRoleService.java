@@ -1,6 +1,6 @@
 package com.ansimpleasy.ans.service;
 
-import com.ansimpleasy.ans.entity.Role;
+import com.ansimpleasy.ans.entity.user.Role;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 import java.util.List;

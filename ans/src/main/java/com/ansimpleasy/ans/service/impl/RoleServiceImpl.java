@@ -1,9 +1,9 @@
 package com.ansimpleasy.ans.service.impl;
 
 import com.ansimpleasy.ans.common.EntityWrapper;
-import com.ansimpleasy.ans.entity.Role;
-import com.ansimpleasy.ans.entity.User;
-import com.ansimpleasy.ans.entity.UserRole;
+import com.ansimpleasy.ans.entity.user.Role;
+import com.ansimpleasy.ans.entity.user.User;
+import com.ansimpleasy.ans.entity.user.UserRole;
 import com.ansimpleasy.ans.exception.AnsException;
 import com.ansimpleasy.ans.mapper.role.RoleMapper;
 import com.ansimpleasy.ans.service.IRoleService;

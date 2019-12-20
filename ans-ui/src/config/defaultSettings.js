@@ -12,7 +12,7 @@ export default {
     },
     app: {
         ossPrefix: process.env.NODE_ENV === "production"
-            ? "https://emas.chinare.com.cn:8123/download/"
+            ? "https://simpleasy.com.cn/download/"
             : "/api/download/",
         systemName: "ANS"
     }

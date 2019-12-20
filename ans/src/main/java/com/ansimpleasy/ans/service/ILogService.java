@@ -1,6 +1,6 @@
 package com.ansimpleasy.ans.service;
 
-import com.ansimpleasy.ans.entity.user.UserRole;
+import com.ansimpleasy.ans.entity.Log;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**
@@ -9,8 +9,8 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * </p>
  *
  * @author liucan
- * @since 2019-08-11
+ * @since 2019-12-17
  */
-public interface IUserRoleService extends IService<UserRole> {
+public interface ILogService extends IService<Log> {
 
 }

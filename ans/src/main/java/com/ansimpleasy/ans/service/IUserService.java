@@ -2,7 +2,7 @@ package com.ansimpleasy.ans.service;
 
 import com.ansimpleasy.ans.auth.AuthServiceImpl;
 import com.ansimpleasy.ans.auth.AuthUser;
-import com.ansimpleasy.ans.entity.User;
+import com.ansimpleasy.ans.entity.user.User;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**

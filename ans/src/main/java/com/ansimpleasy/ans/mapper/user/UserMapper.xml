@@ -9,7 +9,7 @@
 		<!--test_id AS testId, name, age, test_type AS testType, role, phone-->
 	<!--</sql>-->
 
-    <select id="fetchUserByName" parameterType="java.lang.String" resultType="com.ansimpleasy.ans.entity.User">
+    <select id="fetchUserByName" parameterType="java.lang.String" resultType="com.ansimpleasy.ans.entity.user.User">
         SELECT  *  FROM  t_user WHERE  name  = #{name};
     </select>
 

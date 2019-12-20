@@ -2,7 +2,9 @@ package com.ansimpleasy.ans.controller;
 
 
 import org.springframework.web.bind.annotation.RequestMapping;
+
 import org.springframework.web.bind.annotation.RestController;
+import com.ansimpleasy.ans.controller.base.BaseController;
 
 /**
  * <p>
@@ -10,11 +12,11 @@ import org.springframework.web.bind.annotation.RestController;
  * </p>
  *
  * @author liucan
- * @since 2019-11-22
+ * @since 2019-12-17
  */
 @RestController
-@RequestMapping("/file")
-public class FileController extends BaseController{
+@RequestMapping("/log")
+public class LogController extends BaseController {
 
 }
 

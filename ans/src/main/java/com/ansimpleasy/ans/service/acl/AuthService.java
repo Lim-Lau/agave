@@ -2,7 +2,7 @@ package com.ansimpleasy.ans.service.acl;
 
 import com.ansimpleasy.ans.auth.AbstractAuthService;
 import com.ansimpleasy.ans.auth.AuthUser;
-import com.ansimpleasy.ans.entity.User;
+import com.ansimpleasy.ans.entity.user.User;
 import com.ansimpleasy.ans.service.impl.UserServiceImpl;
 import org.nutz.lang.Strings;
 import org.springframework.beans.factory.annotation.Autowired;

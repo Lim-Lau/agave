@@ -1,7 +1,11 @@
 package com.ansimpleasy.ans.service;
 
-import com.ansimpleasy.ans.entity.File;
+import com.ansimpleasy.ans.entity.common.File;
+import com.ansimpleasy.ans.result.FileInfo;
 import com.baomidou.mybatisplus.extension.service.IService;
+import org.springframework.web.multipart.MultipartFile;
+
+import java.util.List;
 
 /**
  * <p>
@@ -13,4 +17,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
  */
 public interface IFileService extends IService<File> {
 
+    List<File> queryFilesByType(String type,String fileType , long id);
+
+    FileInfo upload(MultipartFile file, long foreignKey, String tableType);
 }

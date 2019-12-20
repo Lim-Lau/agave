@@ -1,4 +1,4 @@
-package com.ansimpleasy.ans.controller;
+package com.ansimpleasy.ans.controller.base;
 
 
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -14,8 +14,8 @@ import org.springframework.stereotype.Controller;
  * @since 2019-08-11
  */
 @Controller
-@RequestMapping("/rolePermission")
-public class RolePermissionController {
+@RequestMapping("/userRole")
+public class UserRoleController {
 
 }
 

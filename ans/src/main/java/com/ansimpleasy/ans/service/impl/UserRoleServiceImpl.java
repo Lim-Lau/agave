@@ -1,6 +1,6 @@
 package com.ansimpleasy.ans.service.impl;
 
-import com.ansimpleasy.ans.entity.UserRole;
+import com.ansimpleasy.ans.entity.user.UserRole;
 import com.ansimpleasy.ans.mapper.temp.UserRoleMapper;
 import com.ansimpleasy.ans.service.IUserRoleService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;

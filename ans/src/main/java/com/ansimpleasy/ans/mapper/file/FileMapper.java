@@ -1,6 +1,6 @@
 package com.ansimpleasy.ans.mapper.file;
 
-import com.ansimpleasy.ans.entity.File;
+import com.ansimpleasy.ans.entity.common.File;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**

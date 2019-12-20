@@ -1,6 +1,6 @@
 package com.ansimpleasy.ans.service.impl;
 
-import com.ansimpleasy.ans.entity.RolePermission;
+import com.ansimpleasy.ans.entity.user.RolePermission;
 import com.ansimpleasy.ans.mapper.temp.RolePermissionMapper;
 import com.ansimpleasy.ans.service.IRolePermissionService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;

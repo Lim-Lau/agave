@@ -1,4 +1,4 @@
-package com.ansimpleasy.ans.controller;
+package com.ansimpleasy.ans.controller.base;
 
 
 import org.springframework.web.bind.annotation.RequestMapping;

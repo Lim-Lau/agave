@@ -5,7 +5,7 @@ import com.ansimpleasy.ans.auth.AuthServiceImpl;
 import com.ansimpleasy.ans.auth.AuthUser;
 import com.ansimpleasy.ans.auth.JwtUtil;
 import com.ansimpleasy.ans.common.CredentialsMatcher;
-import com.ansimpleasy.ans.entity.User;
+import com.ansimpleasy.ans.entity.user.User;
 import com.ansimpleasy.ans.enums.DataSourceEnum;
 import com.ansimpleasy.ans.exception.AnsException;
 import com.ansimpleasy.ans.mapper.user.UserMapper;

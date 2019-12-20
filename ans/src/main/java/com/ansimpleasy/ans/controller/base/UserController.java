@@ -1,8 +1,8 @@
-package com.ansimpleasy.ans.controller;
+package com.ansimpleasy.ans.controller.base;
 
 
 import com.ansimpleasy.ans.auth.AuthServiceImpl;
-import com.ansimpleasy.ans.entity.User;
+import com.ansimpleasy.ans.entity.user.User;
 import com.ansimpleasy.ans.result.Result;
 import com.ansimpleasy.ans.service.acl.AuthService;
 import com.ansimpleasy.ans.service.impl.RoleServiceImpl;
@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/user")
 @Api(value = "User" , tags = {"用户相关接口"})
-public class UserController extends BaseController{
+public class UserController extends BaseController {
 
     @Autowired
     private UserServiceImpl userService;

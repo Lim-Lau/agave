@@ -1,6 +1,6 @@
 package com.ansimpleasy.ans.mapper.temp;
 
-import com.ansimpleasy.ans.entity.RolePermission;
+import com.ansimpleasy.ans.entity.user.RolePermission;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**

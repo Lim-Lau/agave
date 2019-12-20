@@ -58,7 +58,7 @@ public class MpGenerator {
                 // 写于父类中的公共字段
                 .setSuperEntityColumns("id","create_time","update_time")
                 //公共父类Controller
-                .setSuperControllerClass("com.ansimpleasy.ans.controller.BaseController")
+                .setSuperControllerClass("com.ansimpleasy.ans.controller.base.BaseController")
                 .setRestControllerStyle(true)
                 //修改替换成你需要的表名，多个表名传数组
                 .setInclude(tableNames)
@@ -98,6 +98,6 @@ public class MpGenerator {
     public static void main(String[] args) {
         MpGenerator mpGenerator = new MpGenerator();
         String packageName = "com.ansimpleasy.ans";
-        mpGenerator.generateByTables(packageName,"t_file");
+        mpGenerator.generateByTables(packageName,"t_album","t_log");
     }
 }

@@ -9203,10 +9203,10 @@ ws@^6.0.0, ws@^6.2.1:
   dependencies:
     async-limiter "~1.0.0"
 
-xe-utils@^2.2.10:
-  version "2.2.10"
-  resolved "https://registry.npm.taobao.org/xe-utils/download/xe-utils-2.2.10.tgz#d02834aaedc0948d5cd5a08b6a82c1bb192a3414"
-  integrity sha1-0Cg0qu3AlI1c1aCLaoLBuxkqNBQ=
+xe-utils@^2.2.12:
+  version "2.2.16"
+  resolved "https://registry.npm.taobao.org/xe-utils/download/xe-utils-2.2.16.tgz#85cdbd9d8db242adbcd2575a92431297b1fba6bf"
+  integrity sha1-hc29nY2yQq280ldakkMSl7H7pr8=
 
 xhr@2.4.0:
   version "2.4.0"
