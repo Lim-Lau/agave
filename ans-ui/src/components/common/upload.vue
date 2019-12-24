@@ -6,7 +6,7 @@
             :file-list="pictures"
             multiple
             :on-success="uploadSuccess"
-            limit="9"
+            :limit= "9"
             list-type="picture">
         <el-button size="small" type="primary">点击上传</el-button>
     </el-upload>

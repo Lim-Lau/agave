@@ -1,6 +1,6 @@
 package com.ansimpleasy.ans.enums;
 
-import java.io.Serializable;
+import org.nutz.lang.Strings;
 
 /**
  * @author LiuCan
@@ -8,7 +8,8 @@ import java.io.Serializable;
  */
 public enum  ContentType implements AnsIEnum<String> {
     LIFE("生活类", "LIFE"),
-    EMOTION("情感类", "EMOTION"),;
+    EMOTION("情感类", "EMOTION"),
+    UNKNOWN("未知", "UNKNOWN"),;
 
     String name;
 
@@ -19,17 +20,28 @@ public enum  ContentType implements AnsIEnum<String> {
         this.code = code;
     }
 
-
+    @Override
     public String getName() {
         return name;
     }
-
+    @Override
     public String getCode() {
         return code;
     }
 
     @Override
-    public Serializable getValue() {
-        return null;
+    public String getValue() {
+        return this.code;
+    }
+
+    public static ContentType from(String inputName) {
+        for (ContentType contentType : values()) {
+            if (Strings.equalsIgnoreCase(contentType.getCode(), inputName)) {
+                return contentType;
+            }
+        }
+
+        return UNKNOWN;
+
     }
 }

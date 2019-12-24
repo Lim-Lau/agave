@@ -1,6 +1,7 @@
 package com.ansimpleasy.ans.common.helper;
 
 import com.ansimpleasy.ans.enums.FileType;
+import org.apache.logging.log4j.util.Strings;
 import org.springframework.util.Assert;
 
 import java.util.Arrays;
@@ -18,7 +19,7 @@ public class FileTypeHelper {
         String magic = bytesToHex(bytes);
 
         for(FileType type:FileType.values()){
-            if(magic.startsWith(type.getValue())){
+            if(Strings.isNotEmpty(type.getVal()) && magic.startsWith(type.getVal())){
                 return type;
             }
         }

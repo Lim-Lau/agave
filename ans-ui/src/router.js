@@ -28,7 +28,7 @@ export default new Router({
         },
         {
             path: "/",
-            name: "home",
+            name: "Ans",
             meta: {
                 icon: "el-icon-menu"
             },
@@ -46,7 +46,7 @@ export default new Router({
         },
         {
             path: "/",
-            name: "home",
+            name: "Blog",
             meta: {
                 icon: "el-icon-menu"
             },
@@ -64,7 +64,7 @@ export default new Router({
         },
         {
             path: "/",
-            name: "home",
+            name: "Verses",
             meta: {
                 icon: "el-icon-menu"
             },
@@ -82,7 +82,7 @@ export default new Router({
         },
         {
             path: "/",
-            name: "home",
+            name: "Album",
             meta: {
                 icon: "el-icon-menu"
             },
@@ -100,7 +100,7 @@ export default new Router({
         },
         {
             path: "/",
-            name: "home",
+            name: "Note",
             meta: {
                 icon: "el-icon-menu"
             },
@@ -118,7 +118,7 @@ export default new Router({
         },
         {
             path: "/",
-            name: "home",
+            name: "Me",
             meta: {
                 icon: "el-icon-menu"
             },

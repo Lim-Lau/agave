@@ -20,9 +20,9 @@
       })
     },
     created() {
-      // this.$api.codebook.all(result => {
-      //   this.cacheCodebooks(result.data);
-      // });
+      this.$api.codebook.all(result => {
+        this.cacheCodebooks(result.data);
+      });
     }
   };
 </script>

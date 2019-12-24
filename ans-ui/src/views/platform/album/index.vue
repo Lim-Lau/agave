@@ -11,6 +11,7 @@
                         type="primary"
                         size="small"
                         icon="el-icon-plus"
+                        @click="add"
                 >
                     添加相册
                 </el-button>
@@ -19,7 +20,7 @@
         <div style="margin-top: 50px">
             <el-divider><i class="el-icon-picture-outline"></i></el-divider>
             <el-row>
-                <el-col :span="8" v-for="(album, index) in albums" :key="album" >
+                <el-col :span="8" v-for="(album, index) in albums" :key="index" >
                     <div class="album">
                         <el-card :body-style="{ padding: '20px' }">
                             <img :src= album.headerKey class="image">
@@ -27,7 +28,8 @@
                                 <span>相册名:{{album.name}}</span>
                                 <div class="bottom clearfix">
                                     <span>描述:{{album.description}}</span>
-                                    <el-button type="text" class="button">详情</el-button>
+                                        <el-button type="text" class="button" @click="detail(album)">编辑</el-button>
+                                        <el-button type="text" class="button" @click="photos(album)">详情</el-button>
                                 </div>
                             </div>
                         </el-card>
@@ -36,22 +38,38 @@
             </el-row>
         </div>
         <!-- 添加和编辑弹出框 -->
+        <AddAndEdit
+                v-model="addAndEditValue"
+                @on-show-change="addAndEditDone"
+        />
     </section>
 </template>
 
 <script>
     import AddAndEdit from "./AddAndEdit";
-    import Ops from "./ops.vue";
 
     export default {
         name: "album",
         components:{
             AddAndEdit: AddAndEdit,
-            Ops:Ops
         },
         data() {
             return {
-                albums: []
+                albums: [],
+                addAndEditValue: {
+                    show: false,
+                    album: {
+                        id:0,
+                        name: "",
+                        description: "",
+                        type: {
+                            name: "",
+                            code: "",
+                            value: ""
+                        },
+                        headerKey: ""
+                    }
+                },
             }
         },
         created() {
@@ -62,6 +80,33 @@
                 this.$api.album.list(result=>{
                     this.albums = result.albums ? result.albums : [];
                 });
+            },
+            detail(album) {
+                this.addAndEditValue = {show:true , album: album};
+
+            },
+            add() {
+                this.addAndEditValue.show = true;
+            },
+            photos() {
+                console.log("详情");
+            },
+            addAndEditDone() {
+                this.addAndEditValue = {
+                    show: false,
+                        album: {
+                        id:0,
+                            name: "",
+                            description: "",
+                            type: {
+                            name: "",
+                                code: "",
+                                value: ""
+                        },
+                        headerKey: ""
+                    }
+                };
+                this.loadData();
             }
         }
     }
@@ -80,6 +125,10 @@
 
     .button {
         padding: 0;
+        float: right;
+        margin-bottom: 10px;
+        margin-left: 5px;
+        margin-right: 2px;
         float: right;
     }
 

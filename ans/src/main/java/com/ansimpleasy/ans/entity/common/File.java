@@ -1,6 +1,8 @@
 package com.ansimpleasy.ans.entity.common;
 
 import com.ansimpleasy.ans.entity.base.BaseEntity;
+import com.ansimpleasy.ans.enums.FileType;
+import com.ansimpleasy.ans.enums.TableType;
 import com.baomidou.mybatisplus.annotation.TableName;
 
 import java.io.Serializable;
@@ -36,12 +38,12 @@ public class File extends BaseEntity implements Serializable  {
     /**
      * 文件类型
      */
-    private String fileType;
+    private FileType fileType;
 
     /**
      * 关联的表名
      */
-    private String tableType;
+    private TableType tableType;
 
 
 
@@ -69,20 +71,19 @@ public class File extends BaseEntity implements Serializable  {
         this.description = description;
     }
 
-    public String getFileType() {
+    public FileType getFileType() {
         return fileType;
     }
 
-    public void setFileType(String fileType) {
+    public void setFileType(FileType fileType) {
         this.fileType = fileType;
     }
 
-    public String getTableType() {
+    public TableType getTableType() {
         return tableType;
     }
 
-    public void setTableType(String tableType) {
+    public void setTableType(TableType tableType) {
         this.tableType = tableType;
     }
-
 }

@@ -11,4 +11,8 @@ import java.io.Serializable;
  */
 @JsonFormat(shape = JsonFormat.Shape.OBJECT)
 public interface AnsIEnum <T extends Serializable> extends IEnum {
+
+    public String getName();
+
+    public String getCode();
 }

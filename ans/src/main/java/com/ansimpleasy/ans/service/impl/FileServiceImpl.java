@@ -3,10 +3,13 @@ package com.ansimpleasy.ans.service.impl;
 import com.ansimpleasy.ans.common.qiniu.QiniuStorage;
 import com.ansimpleasy.ans.entity.common.File;
 import com.ansimpleasy.ans.enums.FileType;
+import com.ansimpleasy.ans.enums.TableType;
 import com.ansimpleasy.ans.exception.AnsException;
 import com.ansimpleasy.ans.mapper.file.FileMapper;
 import com.ansimpleasy.ans.result.FileInfo;
 import com.ansimpleasy.ans.service.IFileService;
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.nutz.lang.Lang;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -45,10 +48,6 @@ public class FileServiceImpl extends ServiceImpl<FileMapper, File> implements IF
             return transferFile(file);}).collect(Collectors.toList());
     }
 
-    private File transferFile(File file) {
-        file.setFileKey(qiniuStorage.getUrl(file.getFileKey()));
-        return file;
-    }
 
     @Override
     public FileInfo upload(MultipartFile file, long foreignKey, String tableType) {
@@ -59,16 +58,31 @@ public class FileServiceImpl extends ServiceImpl<FileMapper, File> implements IF
             saveFile.setFileKey(key);
             saveFile.setDescription("文件");
             saveFile.setRelatedId(foreignKey);
-            saveFile.setFileType("IMG");
-            saveFile.setTableType(tableType);
+            saveFile.setFileType(FileType.IMG);
+            saveFile.setTableType(TableType.from(tableType));
             this.baseMapper.insert(saveFile);
             fileInfo.setKey(key);
-            fileInfo.setType(FileType.PNG);
+            fileInfo.setType(FileType.IMG);
             fileInfo.setUrl(qiniuStorage.getUrl(key));
         } catch (IOException e) {
             throw Lang.makeThrow(AnsException.class, "文件上传失败!");
         }
 
         return fileInfo;
+    }
+
+    @Override
+    public IPage<File> queryFilesByIdAndType(long id, IPage page, TableType tableType, FileType fileType) {
+
+        return page(page, new QueryWrapper<File>()
+                .eq("related_id", id)
+                .eq("table_type", tableType)
+                .eq("fileType", fileType));
+
+    }
+
+    private File transferFile(File file) {
+        file.setFileKey(qiniuStorage.getUrl(file.getFileKey()));
+        return file;
     }
 }
