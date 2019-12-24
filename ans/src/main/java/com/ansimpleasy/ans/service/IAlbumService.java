@@ -2,6 +2,7 @@ package com.ansimpleasy.ans.service;
 
 import com.ansimpleasy.ans.dto.request.BatchPhotoDTO;
 import com.ansimpleasy.ans.dto.request.PhotoDTO;
+import com.ansimpleasy.ans.dto.response.AlbumDTO;
 import com.ansimpleasy.ans.entity.Album;
 import com.ansimpleasy.ans.entity.common.File;
 import com.ansimpleasy.ans.entity.user.User;
@@ -90,5 +91,12 @@ public interface IAlbumService extends IService<Album> {
      */
     void batchDelete(BatchPhotoDTO batchPhotoDTO);
 
-    Album get(long id);
+    /**
+     * 根据相册id获取相册信息并组装封面图片url
+     * @author LiuCan
+     * @date 2019/12/24 14:08
+     * @param id
+     * @return com.ansimpleasy.ans.dto.response.AlbumDTO
+     */
+    AlbumDTO get(long id);
 }
