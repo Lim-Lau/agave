@@ -4,6 +4,7 @@ import com.ansimpleasy.ans.common.qiniu.QiniuWrapper;
 import com.ansimpleasy.ans.dto.request.BatchPhotoDTO;
 import com.ansimpleasy.ans.dto.request.PhotoDTO;
 import com.ansimpleasy.ans.dto.response.AlbumDTO;
+import com.ansimpleasy.ans.dto.response.FileDTO;
 import com.ansimpleasy.ans.entity.Album;
 import com.ansimpleasy.ans.entity.common.File;
 import com.ansimpleasy.ans.entity.user.User;
@@ -60,7 +61,7 @@ public class AlbumServiceImpl extends ServiceImpl<AlbumMapper, Album> implements
     }
 
     @Override
-    public void updateName(Album album) {
+    public void update(Album album) {
         album.setUpdateTime(Times.now());
         QueryWrapper<Album> queryWrapper = new QueryWrapper<>();
         queryWrapper.eq("id", album.getId());
@@ -80,7 +81,7 @@ public class AlbumServiceImpl extends ServiceImpl<AlbumMapper, Album> implements
     }
 
     @Override
-    public IPage<File> queryPhotoByIdAndPage(long id, IPage page) {
+    public IPage<FileDTO> queryPhotoByIdAndPage(long id, IPage page) {
 
         return fileService.queryFilesByIdAndType(id, page, TableType.ALBUM, FileType.IMG);
     }
@@ -112,6 +113,11 @@ public class AlbumServiceImpl extends ServiceImpl<AlbumMapper, Album> implements
         AlbumDTO albumDTO = Json.fromJson(AlbumDTO.class, Json.toJson(album));
         albumDTO.setHeaderUrl(qiniuWrapper.getUrl(album.getHeaderKey()));
         return albumDTO;
+    }
+
+    @Override
+    public void updatePhoto(File file) {
+        fileService.updateById(file);
     }
 
 

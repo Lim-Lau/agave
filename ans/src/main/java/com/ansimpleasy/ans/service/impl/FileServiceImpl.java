@@ -1,6 +1,7 @@
 package com.ansimpleasy.ans.service.impl;
 
 import com.ansimpleasy.ans.common.qiniu.QiniuStorage;
+import com.ansimpleasy.ans.dto.response.FileDTO;
 import com.ansimpleasy.ans.entity.common.File;
 import com.ansimpleasy.ans.enums.FileType;
 import com.ansimpleasy.ans.enums.TableType;
@@ -11,6 +12,7 @@ import com.ansimpleasy.ans.service.IFileService;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import org.nutz.json.Json;
 import org.nutz.lang.Lang;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -72,12 +74,21 @@ public class FileServiceImpl extends ServiceImpl<FileMapper, File> implements IF
     }
 
     @Override
-    public IPage<File> queryFilesByIdAndType(long id, IPage page, TableType tableType, FileType fileType) {
-
-        return page(page, new QueryWrapper<File>()
+    public IPage<FileDTO> queryFilesByIdAndType(long id, IPage page, TableType tableType, FileType fileType) {
+        IPage iPage = page(page, new QueryWrapper<File>()
                 .eq("related_id", id)
                 .eq("table_type", tableType)
-                .eq("fileType", fileType));
+                .eq("file_type", fileType));
+        List<File> records = iPage.getRecords();
+        List<FileDTO> data = Lang.list();
+        records.stream().map(file->{
+            FileDTO fileDTO = Json.fromJson(FileDTO.class , Json.toJson(file));
+            fileDTO.setFileUrl(qiniuStorage.getUrl(file.getFileKey()));
+            data.add(fileDTO);
+            return file;
+        }).collect(Collectors.toList());
+        iPage.setRecords(data);
+        return iPage;
 
     }
 

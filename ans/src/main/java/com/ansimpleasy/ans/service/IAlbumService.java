@@ -3,6 +3,7 @@ package com.ansimpleasy.ans.service;
 import com.ansimpleasy.ans.dto.request.BatchPhotoDTO;
 import com.ansimpleasy.ans.dto.request.PhotoDTO;
 import com.ansimpleasy.ans.dto.response.AlbumDTO;
+import com.ansimpleasy.ans.dto.response.FileDTO;
 import com.ansimpleasy.ans.entity.Album;
 import com.ansimpleasy.ans.entity.common.File;
 import com.ansimpleasy.ans.entity.user.User;
@@ -44,14 +45,14 @@ public interface IAlbumService extends IService<Album> {
     List<Album> list(User user);
 
     /**
-     *  更新相册名称
+     *  更新相册
      *
      * @author LiuCan
      * @date 2019/12/20 11:27
      * @param album
      * @return void
      */
-    void updateName(Album album);
+    void update(Album album);
 
     /**
      * 更新相册状态
@@ -71,7 +72,7 @@ public interface IAlbumService extends IService<Album> {
      * @param packagePage
      * @return Page<File>
      */
-    IPage<File>  queryPhotoByIdAndPage(long id, IPage packagePage);
+    IPage<FileDTO>  queryPhotoByIdAndPage(long id, IPage packagePage);
 
     /**
      *  添加 照片信息
@@ -99,4 +100,12 @@ public interface IAlbumService extends IService<Album> {
      * @return com.ansimpleasy.ans.dto.response.AlbumDTO
      */
     AlbumDTO get(long id);
+
+    /**
+     * @author LiuCan
+     * @date 2019/12/26 10:44
+     * @param file
+     * @return void
+     */
+    void updatePhoto(File file);
 }

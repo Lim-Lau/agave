@@ -40,6 +40,15 @@ export default {
     },
     /**
      *
+     * @param photo
+     * @param success
+     * @param error
+     */
+    updatePhoto(photo, success = defaultSuccess, error = defaultError) {
+        http.post("/album/update/photo", photo).then(success).catch(error);
+    },
+    /**
+     *
      * @param album
      * @param success
      * @param error

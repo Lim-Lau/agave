@@ -161,7 +161,7 @@
                 types: [],
                 files: [],
                 tempUrl: [],
-                uploadUrl:this.$config.http.prefix + "/common/upload?foreignKey=1" + "&tableType=" +this.type,
+                uploadUrl:this.$config.http.prefix + "/common/upload?foreignKey=-1&tableType='ALBUM'",
                 rules: {
                     name: [
                         {required: true, message: "请输入相册名称", trigger: "blur"}

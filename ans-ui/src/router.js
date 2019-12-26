@@ -87,16 +87,28 @@ export default new Router({
                 icon: "el-icon-menu"
             },
             component: Layout,
-            children: [{
+            children: [
+                {
                 path: "/album",
                 name: "album",
                 meta: {
-                    name: "相册",
+                    name: "相册列表",
                     icon: "el-icon-picture-outline"
                     // pn: installPermissions.permissions.member.management
                 },
                 component: () => import("./views/platform/album")
-            }]
+                },
+                {
+                    path: "/photos",
+                    name: "Photos",
+                    hidden: true,
+                    meta: {
+                        name: "照片列表",
+                        icon: "fa fa-cubes",
+                    },
+                    component: () => import("./views/platform/photo/photos.vue")
+                },
+            ]
         },
         {
             path: "/",

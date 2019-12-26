@@ -5,6 +5,7 @@ import com.ansimpleasy.ans.controller.base.BaseController;
 import com.ansimpleasy.ans.dto.request.BatchPhotoDTO;
 import com.ansimpleasy.ans.dto.request.PhotoDTO;
 import com.ansimpleasy.ans.entity.Album;
+import com.ansimpleasy.ans.entity.common.File;
 import com.ansimpleasy.ans.result.Result;
 import com.ansimpleasy.ans.service.impl.AlbumServiceImpl;
 import io.swagger.annotations.ApiOperation;
@@ -45,7 +46,14 @@ public class AlbumController extends BaseController {
     @PostMapping("/update")
     @ApiOperation("编辑相册")
     public Result update(@RequestBody Album album) {
-        albumService.updateName(album);
+        albumService.update(album);
+        return Result.success();
+    }
+
+    @PostMapping("/update/photo")
+    @ApiOperation("修改照片")
+    public Result updatePhoto(@RequestBody File file) {
+        albumService.updatePhoto(file);
         return Result.success();
     }
 

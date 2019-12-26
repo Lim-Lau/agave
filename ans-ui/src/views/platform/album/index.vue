@@ -29,7 +29,7 @@
                                 <div class="bottom clearfix">
                                     <span>描述:{{album.description}}</span>
                                         <el-button type="text" class="button" @click="detail(album)">编辑</el-button>
-                                        <el-button type="text" class="button" @click="photos(album)">详情</el-button>
+                                        <el-button type="text" class="button" @click="photos(album.id)">详情</el-button>
                                 </div>
                             </div>
                         </el-card>
@@ -88,8 +88,8 @@
             add() {
                 this.addAndEditValue.show = true;
             },
-            photos() {
-                console.log("详情");
+            photos(id) {
+                this.$router.push({path:"/photos",query:{id: id}});
             },
             addAndEditDone() {
                 this.addAndEditValue = {

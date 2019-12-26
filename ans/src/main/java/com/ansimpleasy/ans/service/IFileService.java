@@ -1,5 +1,6 @@
 package com.ansimpleasy.ans.service;
 
+import com.ansimpleasy.ans.dto.response.FileDTO;
 import com.ansimpleasy.ans.entity.common.File;
 import com.ansimpleasy.ans.enums.FileType;
 import com.ansimpleasy.ans.enums.TableType;
@@ -55,5 +56,5 @@ public interface IFileService extends IService<File> {
      * @param img
      * @return IPage<File>
      */
-    IPage<File> queryFilesByIdAndType(long id, IPage page, TableType album, FileType img);
+    IPage<FileDTO> queryFilesByIdAndType(long id, IPage page, TableType album, FileType img);
 }
