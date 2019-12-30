@@ -14,6 +14,8 @@ import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.nutz.json.Json;
 import org.nutz.lang.Lang;
+import org.nutz.lang.Strings;
+import org.nutz.lang.util.NutMap;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
@@ -53,12 +55,14 @@ public class FileServiceImpl extends ServiceImpl<FileMapper, File> implements IF
 
     @Override
     public FileInfo upload(MultipartFile file, long foreignKey, String tableType) {
+        NutMap fromJson = Json.fromJson(NutMap.class, Json.toJson(file));
         FileInfo fileInfo = new FileInfo();
         try {
             String key = qiniuStorage.uploadImage(file.getBytes());
             File saveFile = new File();
             saveFile.setFileKey(key);
-            saveFile.setDescription("文件");
+            String filename = fromJson.getAs("filename", String.class);
+            saveFile.setDescription(Strings.cutLeft(filename, filename.indexOf("."), ' '));
             saveFile.setRelatedId(foreignKey);
             saveFile.setFileType(FileType.IMG);
             saveFile.setTableType(TableType.from(tableType));

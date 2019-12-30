@@ -66,12 +66,21 @@
                 </el-col>
             </el-row>
         </section>
+        <!-- 添加和编辑弹出框 -->
+        <AddAndEdit
+                v-model="addAndEditValue"
+                @on-show-change="addAndEditDone"
+        />
     </section>
 </template>
 
 <script>
+    import AddAndEdit from "./AddAndEdit";
     export default {
         name: "photos",
+        components:{
+            AddAndEdit
+        },
         data(){
             return {
                 addAndEditValue: {
@@ -111,11 +120,21 @@
 
             }
         },
-        created() {
+        mounted() {
             this.loadData();
         },
 
         methods:{
+            addAndEditDone() {
+                this.addAndEditValue = {
+                    show: false,
+                    album: {
+                        id:0,
+                        name: ""
+                    }
+                };
+                this.loadData();
+            },
             doSearch() {
 
             },

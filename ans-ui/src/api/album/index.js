@@ -49,6 +49,15 @@ export default {
     },
     /**
      *
+     * @param photo
+     * @param success
+     * @param error
+     */
+    addPhoto(photo, success = defaultSuccess, error = defaultError) {
+        http.post("/album/add/photo", photo).then(success).catch(error);
+    },
+    /**
+     *
      * @param album
      * @param success
      * @param error

@@ -7,8 +7,7 @@
             <el-form
                     :model="album"
                     :inline="true"
-                    :rules="rules"
-                    ref="albumForm"
+                    ref="photoForm"
             >
                 <el-form-item
                         label="相册名称"
@@ -18,7 +17,7 @@
                     <el-input
                             v-model="album.name"
                             auto-complete="off"
-                            disabled="true"
+                            disabled
                     />
                 </el-form-item>
                 <el-form-item
@@ -27,32 +26,17 @@
                         prop="downLoadUrl"
                 >
                     <el-upload
+                            class="upload-demo"
                             :action="uploadUrl"
-                            :limit="1"
-                            v-model="album.headerKey"
-                            ref="upload"
                             multiple
+                            :limit="9"
                             :file-list="files"
-                            :auto-upload="true"
-                            :before-upload="uploadBefore"
-                            :on-remove="handleRemove"
+                            v-model="files"
                             :on-success="uploadSuccess"
-                            list-type="picture"
-                    >
-                        <el-button
-                                slot="trigger"
-                                size="small"
-                                type="primary"
-                                :disabled="files.length>0"
-                        >
-                            选取文件
-                        </el-button>
-                        <div
-                                slot="tip"
-                                class="el-upload__tip"
-                        >
-                            请上传封面照片,且文件大小不能超过5M(如果文件已存在，请先删除再上传)
-                        </div>
+                            :before-upload="checkFile"
+                            :on-remove="handleRemove">
+                        <el-button size="small" type="primary">点击上传</el-button>
+                        <div slot="tip" class="el-upload__tip">只能上传图片文件，且不超过5M</div>
                     </el-upload>
                 </el-form-item>
             </el-form>
@@ -62,12 +46,12 @@
             >
         <el-button
                 size="small"
-                @click="cancel('albumForm')"
+                @click="cancel('photoForm')"
         >取 消</el-button>
         <el-button
                 size="small"
                 type="primary"
-                @click="submit('albumForm')"
+                @click="submit('photoForm')"
         >确 定</el-button>
       </span>
         </el-dialog>
@@ -86,8 +70,12 @@
                     name: ""
                 },
                 photos: [],
-                files: [],
-                uploadUrl:this.$config.http.prefix + "/common/upload?foreignKey="+this.album.id+"&tableType='ALBUM'",
+                files: []
+            }
+        },
+        computed: {
+            uploadUrl() {
+                return this.$config.http.prefix + "/common/upload?foreignKey="+this.album.id + "&tableType=ALBUM"
             }
         },
         props: {
@@ -113,6 +101,7 @@
                     this.visible = val.show;
                     this.labelWidth = val.formLabelWidth || "120px";
                     this.album= val.album;
+                    // this.loadData();
                 }
             },
             visible(val) {
@@ -120,6 +109,58 @@
             }
         },
         methods:{
+            close() {
+                this.cancel('photoForm');
+            },
+            cancel(form) {
+                this.files = [];
+                this.$refs[form].clearValidate();
+                this.visible = false;
+                this.album = {
+                    id:0,
+                    name: ""
+                };
+            },
+            submit(form) {
+                this.cancel(form);
+                // console.log(this.photos);
+                // let photosDTO = {
+                //     id: this.album.id,
+                //     name: this.album.name,
+                //     files: this.photos
+                // };
+                // const callback = () => {
+                //     this.cancel(form);
+                // };
+                // this.$api.album.addPhoto(photosDTO, callback());
+            },
+            uploadSuccess(result) {
+                this.photos.push({
+                    relatedId: this.album.id,
+                    fileKey:result.data.fileInfo.key,
+                    fileType:result.data.fileInfo.type.code,
+                    tableType: "ALBUM"
+                })
+            },
+            checkFile(file) {
+                let suffix = file.name.substr(file.name.lastIndexOf("."));
+                const isExcel = ".jpg" == suffix || ".png" == suffix|| ".gif" == suffix|| ".jpeg" == suffix|| ".psd" == suffix|| ".pdd" == suffix;
+                const isLt20M = file.size / 1024 / 1024 < 5;
+
+                if (!isExcel) {
+                    this.$message.error("只能是图片文件!");
+                }
+                if (!isLt20M) {
+                    this.$message.error("上传文件大小不能超过 5MB!");
+                }
+                return isExcel && isLt20M;
+            },
+            handleRemove(val) {
+                this.photos = this.photos.filter(item => {
+                    return item.fileKey != val.response.data.fileInfo.key;
+                })
+
+            },
         }
     }
 </script>

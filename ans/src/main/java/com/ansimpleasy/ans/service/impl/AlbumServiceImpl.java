@@ -89,7 +89,7 @@ public class AlbumServiceImpl extends ServiceImpl<AlbumMapper, Album> implements
     @Override
     public void addPhoto(PhotoDTO photoDTO) {
         // 查询相册信息
-        isExistAlbum(new QueryWrapper<Album>().eq("userId", photoDTO.getUserId()).eq("id", photoDTO.getId()));
+        isExistAlbum(new QueryWrapper<Album>().eq("user_id", photoDTO.getUserId()).eq("id", photoDTO.getId()));
         // 保存照片信息
         List<File> files = photoDTO.getFiles().stream().map(file -> {
             file.setRelatedId(photoDTO.getId());
@@ -103,7 +103,7 @@ public class AlbumServiceImpl extends ServiceImpl<AlbumMapper, Album> implements
 
     @Override
     public void batchDelete(BatchPhotoDTO batchPhotoDTO) {
-        isExistAlbum(new QueryWrapper<Album>().eq("userId", batchPhotoDTO.getUserId()).eq("id", batchPhotoDTO.getAlbumId()));
+        isExistAlbum(new QueryWrapper<Album>().eq("user_id", batchPhotoDTO.getUserId()).eq("id", batchPhotoDTO.getAlbumId()));
 
     }
 
