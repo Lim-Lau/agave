@@ -248,8 +248,8 @@
                 if (!isExcel) {
                     this.$message.error("只能是图片文件!");
                 }
-                let limitSize = val.size / 1024 / 1024 >5;
-                if (limitSize ) {
+                let limitSize = val.size / 1024 / 1024 <5;
+                if (!limitSize ) {
                     this.$message.error("文件大小不能超过5M");
                 }
                 return isExcel && limitSize;
