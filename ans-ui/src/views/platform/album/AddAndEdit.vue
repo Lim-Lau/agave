@@ -244,15 +244,15 @@
             },
             uploadBefore(val) {
                 let suffix = val.name.substr(val.name.lastIndexOf("."));
-                const isExcel = ".jpg" == suffix || ".png" == suffix|| ".gif" == suffix|| ".jpeg" == suffix|| ".psd" == suffix|| ".pdd" == suffix;
-                if (!isExcel) {
+                const isImg = ".jpg" == suffix || ".png" == suffix|| ".gif" == suffix|| ".jpeg" == suffix|| ".psd" == suffix|| ".pdd" == suffix;
+                if (!isImg) {
                     this.$message.error("只能是图片文件!");
                 }
                 let limitSize = val.size / 1024 / 1024 <5;
                 if (!limitSize ) {
                     this.$message.error("文件大小不能超过5M");
                 }
-                return isExcel && limitSize;
+                return isImg && limitSize;
             },
             handleRemove(val) {
                 this.files = this.files.filter(item => {

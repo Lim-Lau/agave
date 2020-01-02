@@ -144,16 +144,16 @@
             },
             checkFile(file) {
                 let suffix = file.name.substr(file.name.lastIndexOf("."));
-                const isExcel = ".jpg" == suffix || ".png" == suffix|| ".gif" == suffix|| ".jpeg" == suffix|| ".psd" == suffix|| ".pdd" == suffix;
-                const isLt20M = file.size / 1024 / 1024 < 5;
+                const isImg = ".jpg" == suffix || ".png" == suffix|| ".gif" == suffix|| ".jpeg" == suffix|| ".psd" == suffix|| ".pdd" == suffix;
+                const isLt5M = file.size / 1024 / 1024 < 5;
 
-                if (!isExcel) {
+                if (!isImg) {
                     this.$message.error("只能是图片文件!");
                 }
-                if (!isLt20M) {
+                if (!isLt5M) {
                     this.$message.error("上传文件大小不能超过 5MB!");
                 }
-                return isExcel && isLt20M;
+                return isImg && isLt5M;
             },
             handleRemove(val) {
                 this.photos = this.photos.filter(item => {
